@@ -11,6 +11,133 @@
 		411873AD29E0ACAA00F04BAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411873AC29E0ACAA00F04BAA /* ContentView.swift */; };
 		411873AF29E0ACAB00F04BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411873AE29E0ACAB00F04BAA /* Assets.xcassets */; };
 		411873B229E0ACAB00F04BAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411873B129E0ACAB00F04BAA /* Preview Assets.xcassets */; };
+		411873B929E0ACBD00F04BAA /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411873B829E0ACBD00F04BAA /* Element.swift */; };
+		411873BB29E0ACDC00F04BAA /* PeriodicTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411873BA29E0ACDC00F04BAA /* PeriodicTableViewModel.swift */; };
+		4118743329F5F97B00F04BAA /* element_005_boron.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873BD29F5F97B00F04BAA /* element_005_boron.usdz */; };
+		4118743429F5F97B00F04BAA /* element_093_neptunium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873BE29F5F97B00F04BAA /* element_093_neptunium.usdz */; };
+		4118743529F5F97B00F04BAA /* element_039_yttrium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873BF29F5F97B00F04BAA /* element_039_yttrium.usdz */; };
+		4118743629F5F97B00F04BAA /* element_112_copernicium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873C029F5F97B00F04BAA /* element_112_copernicium.usdz */; };
+		4118743729F5F97B00F04BAA /* element_086_radon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873C129F5F97B00F04BAA /* element_086_radon.usdz */; };
+		4118743829F5F97B00F04BAA /* element_027_cobalt.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873C229F5F97B00F04BAA /* element_027_cobalt.usdz */; };
+		4118743929F5F97B00F04BAA /* element_117_tennessine.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873C329F5F97B00F04BAA /* element_117_tennessine.usdz */; };
+		4118743A29F5F97B00F04BAA /* element_002_helium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873C429F5F97B00F04BAA /* element_002_helium.usdz */; };
+		4118743B29F5F97B00F04BAA /* element_051_antimony.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873C529F5F97B00F04BAA /* element_051_antimony.usdz */; };
+		4118743C29F5F97B00F04BAA /* element_074_tungsten.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873C629F5F97B00F04BAA /* element_074_tungsten.usdz */; };
+		4118743D29F5F97B00F04BAA /* element_050_tin.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873C729F5F97B00F04BAA /* element_050_tin.usdz */; };
+		4118743E29F5F97B00F04BAA /* element_110_darmstadtium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873C829F5F97B00F04BAA /* element_110_darmstadtium.usdz */; };
+		4118743F29F5F97B00F04BAA /* element_014_silicon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873C929F5F97B00F04BAA /* element_014_silicon.usdz */; };
+		4118744029F5F97B00F04BAA /* element_061_promethium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873CA29F5F97B00F04BAA /* element_061_promethium.usdz */; };
+		4118744129F5F97B00F04BAA /* element_108_hassium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873CB29F5F97B00F04BAA /* element_108_hassium.usdz */; };
+		4118744229F5F97B00F04BAA /* element_013_aluminum.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873CC29F5F97B00F04BAA /* element_013_aluminum.usdz */; };
+		4118744329F5F97B00F04BAA /* element_007_nitrogen.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873CD29F5F97B00F04BAA /* element_007_nitrogen.usdz */; };
+		4118744429F5F97B00F04BAA /* element_114_flerovium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873CE29F5F97B00F04BAA /* element_114_flerovium.usdz */; };
+		4118744529F5F97B00F04BAA /* element_052_tellurium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873CF29F5F97B00F04BAA /* element_052_tellurium.usdz */; };
+		4118744629F5F97B00F04BAA /* element_060_neodymium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873D029F5F97B00F04BAA /* element_060_neodymium.usdz */; };
+		4118744729F5F97B00F04BAA /* element_106_seaborgium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873D129F5F97B00F04BAA /* element_106_seaborgium.usdz */; };
+		4118744829F5F97B00F04BAA /* element_111_roentgenium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873D229F5F97B00F04BAA /* element_111_roentgenium.usdz */; };
+		4118744929F5F97B00F04BAA /* element_071_lutetium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873D329F5F97B00F04BAA /* element_071_lutetium.usdz */; };
+		4118744A29F5F97B00F04BAA /* element_046_palladium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873D429F5F97B00F04BAA /* element_046_palladium.usdz */; };
+		4118744B29F5F97B00F04BAA /* element_063_europium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873D529F5F97B00F04BAA /* element_063_europium.usdz */; };
+		4118744C29F5F97B00F04BAA /* element_113_nihonium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873D629F5F97B00F04BAA /* element_113_nihonium.usdz */; };
+		4118744D29F5F97B00F04BAA /* element_102_nobelium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873D729F5F97B00F04BAA /* element_102_nobelium.usdz */; };
+		4118744E29F5F97B00F04BAA /* element_069_thulium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873D829F5F97B00F04BAA /* element_069_thulium.usdz */; };
+		4118744F29F5F97B00F04BAA /* element_048_cadmium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873D929F5F97B00F04BAA /* element_048_cadmium.usdz */; };
+		4118745029F5F97B00F04BAA /* element_085_astatine.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873DA29F5F97B00F04BAA /* element_085_astatine.usdz */; };
+		4118745129F5F97B00F04BAA /* element_043_technetium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873DB29F5F97B00F04BAA /* element_043_technetium.usdz */; };
+		4118745229F5F97B00F04BAA /* element_037_rubidium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873DC29F5F97B00F04BAA /* element_037_rubidium.usdz */; };
+		4118745329F5F97B00F04BAA /* element_030_zinc.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873DD29F5F97B00F04BAA /* element_030_zinc.usdz */; };
+		4118745429F5F97B00F04BAA /* element_036_krypton.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873DE29F5F97B00F04BAA /* element_036_krypton.usdz */; };
+		4118745529F5F97B00F04BAA /* element_010_neon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873DF29F5F97B00F04BAA /* element_010_neon.usdz */; };
+		4118745629F5F97B00F04BAA /* element_047_silver.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873E029F5F97B00F04BAA /* element_047_silver.usdz */; };
+		4118745729F5F97B00F04BAA /* element_118_oganesson.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873E129F5F97B00F04BAA /* element_118_oganesson.usdz */; };
+		4118745829F5F97B00F04BAA /* element_081_thallium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873E229F5F97B00F04BAA /* element_081_thallium.usdz */; };
+		4118745929F5F97B00F04BAA /* element_029_copper.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873E329F5F97B00F04BAA /* element_029_copper.usdz */; };
+		4118745A29F5F97B00F04BAA /* element_025_manganese.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873E429F5F97B00F04BAA /* element_025_manganese.usdz */; };
+		4118745B29F5F97B00F04BAA /* element_101_mendelevium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873E529F5F97B00F04BAA /* element_101_mendelevium.usdz */; };
+		4118745C29F5F97B00F04BAA /* element_068_erbium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873E629F5F97B00F04BAA /* element_068_erbium.usdz */; };
+		4118745D29F5F97B00F04BAA /* element_064_gadolinium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873E729F5F97B00F04BAA /* element_064_gadolinium.usdz */; };
+		4118745E29F5F97B00F04BAA /* element_072_hafnium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873E829F5F97B00F04BAA /* element_072_hafnium.usdz */; };
+		4118745F29F5F97B00F04BAA /* element_032_germanium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873E929F5F97B00F04BAA /* element_032_germanium.usdz */; };
+		4118746029F5F97B00F04BAA /* element_054_xenon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873EA29F5F97B00F04BAA /* element_054_xenon.usdz */; };
+		4118746129F5F97B00F04BAA /* element_076_osmium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873EB29F5F97B00F04BAA /* element_076_osmium.usdz */; };
+		4118746229F5F97B00F04BAA /* element_017_chlorine.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873EC29F5F97B00F04BAA /* element_017_chlorine.usdz */; };
+		4118746329F5F97B00F04BAA /* element_020_calcium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873ED29F5F97B00F04BAA /* element_020_calcium.usdz */; };
+		4118746429F5F97B00F04BAA /* element_015_phosphorus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873EE29F5F97B00F04BAA /* element_015_phosphorus.usdz */; };
+		4118746529F5F97B00F04BAA /* element_006_carbon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873EF29F5F97B00F04BAA /* element_006_carbon.usdz */; };
+		4118746629F5F97B00F04BAA /* element_080_mercury.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873F029F5F97B00F04BAA /* element_080_mercury.usdz */; };
+		4118746729F5F97B00F04BAA /* element_004_beryllium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873F129F5F97B00F04BAA /* element_004_beryllium.usdz */; };
+		4118746829F5F97B00F04BAA /* element_035_bromine.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873F229F5F97B00F04BAA /* element_035_bromine.usdz */; };
+		4118746929F5F97B00F04BAA /* element_023_vanadium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873F329F5F97B00F04BAA /* element_023_vanadium.usdz */; };
+		4118746A29F5F97B00F04BAA /* element_079_gold.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873F429F5F97B00F04BAA /* element_079_gold.usdz */; };
+		4118746B29F5F97B00F04BAA /* element_078_platinum.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873F529F5F97B00F04BAA /* element_078_platinum.usdz */; };
+		4118746C29F5F97B00F04BAA /* element_062_samarium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873F629F5F97B00F04BAA /* element_062_samarium.usdz */; };
+		4118746D29F5F97B00F04BAA /* element_105_dubnium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873F729F5F97B00F04BAA /* element_105_dubnium.usdz */; };
+		4118746E29F5F97B00F04BAA /* element_055_cesium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873F829F5F97B00F04BAA /* element_055_cesium.usdz */; };
+		4118746F29F5F97B00F04BAA /* element_016_sulfur.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873F929F5F97B00F04BAA /* element_016_sulfur.usdz */; };
+		4118747029F5F97B00F04BAA /* element_057_lanthanum.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873FA29F5F97B00F04BAA /* element_057_lanthanum.usdz */; };
+		4118747129F5F97B00F04BAA /* element_049_indium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873FB29F5F97B00F04BAA /* element_049_indium.usdz */; };
+		4118747229F5F97B00F04BAA /* element_038_strontium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873FC29F5F97B00F04BAA /* element_038_strontium.usdz */; };
+		4118747329F5F97B00F04BAA /* element_088_radium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873FD29F5F97B00F04BAA /* element_088_radium.usdz */; };
+		4118747429F5F97B00F04BAA /* element_082_lead.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873FE29F5F97B00F04BAA /* element_082_lead.usdz */; };
+		4118747529F5F97B00F04BAA /* element_092_uranium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873FF29F5F97B00F04BAA /* element_092_uranium.usdz */; };
+		4118747629F5F97B00F04BAA /* element_090_thorium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118740029F5F97B00F04BAA /* element_090_thorium.usdz */; };
+		4118747729F5F97B00F04BAA /* element_065_terbium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118740129F5F97B00F04BAA /* element_065_terbium.usdz */; };
+		4118747829F5F97B00F04BAA /* element_087_francium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118740229F5F97B00F04BAA /* element_087_francium.usdz */; };
+		4118747929F5F97B00F04BAA /* element_104_rutherfordium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118740329F5F97B00F04BAA /* element_104_rutherfordium.usdz */; };
+		4118747A29F5F97B00F04BAA /* element_021_scandium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118740429F5F97B00F04BAA /* element_021_scandium.usdz */; };
+		4118747B29F5F97B00F04BAA /* element_084_polonium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118740529F5F97B00F04BAA /* element_084_polonium.usdz */; };
+		4118747C29F5F97B00F04BAA /* element_096_curium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118740629F5F97B00F04BAA /* element_096_curium.usdz */; };
+		4118747D29F5F97B00F04BAA /* element_012_magnesium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118740729F5F97B00F04BAA /* element_012_magnesium.usdz */; };
+		4118747E29F5F97B00F04BAA /* element_100_fermium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118740829F5F97B00F04BAA /* element_100_fermium.usdz */; };
+		4118747F29F5F97B00F04BAA /* element_083_bismuth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118740929F5F97B00F04BAA /* element_083_bismuth.usdz */; };
+		4118748029F5F97B00F04BAA /* element_059_praseodymium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118740A29F5F97B00F04BAA /* element_059_praseodymium.usdz */; };
+		4118748129F5F97B00F04BAA /* element_044_ruthenium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118740B29F5F97B00F04BAA /* element_044_ruthenium.usdz */; };
+		4118748229F5F97B00F04BAA /* element_011_sodium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118740C29F5F97B00F04BAA /* element_011_sodium.usdz */; };
+		4118748329F5F97B00F04BAA /* element_095_americium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118740D29F5F97B00F04BAA /* element_095_americium.usdz */; };
+		4118748429F5F97B00F04BAA /* element_056_barium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118740E29F5F97B00F04BAA /* element_056_barium.usdz */; };
+		4118748529F5F97B00F04BAA /* element_045_rhodium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118740F29F5F97B00F04BAA /* element_045_rhodium.usdz */; };
+		4118748629F5F97B00F04BAA /* element_097_berkelium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118741029F5F97B00F04BAA /* element_097_berkelium.usdz */; };
+		4118748729F5F97B00F04BAA /* element_001_hydrogen.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118741129F5F97B00F04BAA /* element_001_hydrogen.usdz */; };
+		4118748829F5F97B00F04BAA /* element_091_protactinium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118741229F5F97B00F04BAA /* element_091_protactinium.usdz */; };
+		4118748929F5F97B00F04BAA /* element_018_argon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118741329F5F97B00F04BAA /* element_018_argon.usdz */; };
+		4118748A29F5F97B00F04BAA /* element_116_livermorium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118741429F5F97B00F04BAA /* element_116_livermorium.usdz */; };
+		4118748B29F5F97B00F04BAA /* element_022_titanium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118741529F5F97B00F04BAA /* element_022_titanium.usdz */; };
+		4118748C29F5F97B00F04BAA /* element_031_gallium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118741629F5F97B00F04BAA /* element_031_gallium.usdz */; };
+		4118748D29F5F97B00F04BAA /* element_053_iodine.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118741729F5F97B00F04BAA /* element_053_iodine.usdz */; };
+		4118748E29F5F97B00F04BAA /* element_103_lawrencium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118741829F5F97B00F04BAA /* element_103_lawrencium.usdz */; };
+		4118748F29F5F97B00F04BAA /* element_077_iridium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118741929F5F97B00F04BAA /* element_077_iridium.usdz */; };
+		4118749029F5F97B00F04BAA /* element_115_moscovium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118741A29F5F97B00F04BAA /* element_115_moscovium.usdz */; };
+		4118749129F5F97B00F04BAA /* element_026_iron.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118741B29F5F97B00F04BAA /* element_026_iron.usdz */; };
+		4118749229F5F97B00F04BAA /* element_042_molybdenum.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118741C29F5F97B00F04BAA /* element_042_molybdenum.usdz */; };
+		4118749329F5F97B00F04BAA /* element_066_dysprosium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118741D29F5F97B00F04BAA /* element_066_dysprosium.usdz */; };
+		4118749429F5F97B00F04BAA /* element_041_niobium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118741E29F5F97B00F04BAA /* element_041_niobium.usdz */; };
+		4118749529F5F97B00F04BAA /* element_075_rhenium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118741F29F5F97B00F04BAA /* element_075_rhenium.usdz */; };
+		4118749629F5F97B00F04BAA /* element_099_einsteinium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118742029F5F97B00F04BAA /* element_099_einsteinium.usdz */; };
+		4118749729F5F97B00F04BAA /* element_003_lithium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118742129F5F97B00F04BAA /* element_003_lithium.usdz */; };
+		4118749829F5F97B00F04BAA /* element_067_holmium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118742229F5F97B00F04BAA /* element_067_holmium.usdz */; };
+		4118749929F5F97B00F04BAA /* element_008_oxygen.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118742329F5F97B00F04BAA /* element_008_oxygen.usdz */; };
+		4118749A29F5F97B00F04BAA /* element_034_selenium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118742429F5F97B00F04BAA /* element_034_selenium.usdz */; };
+		4118749B29F5F97B00F04BAA /* element_019_potassium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118742529F5F97B00F04BAA /* element_019_potassium.usdz */; };
+		4118749C29F5F97B00F04BAA /* element_058_cerium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118742629F5F97B00F04BAA /* element_058_cerium.usdz */; };
+		4118749D29F5F97B00F04BAA /* element_024_chromium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118742729F5F97B00F04BAA /* element_024_chromium.usdz */; };
+		4118749E29F5F97B00F04BAA /* element_107_bohrium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118742829F5F97B00F04BAA /* element_107_bohrium.usdz */; };
+		4118749F29F5F97B00F04BAA /* element_040_zirconium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118742929F5F97B00F04BAA /* element_040_zirconium.usdz */; };
+		411874A029F5F97B00F04BAA /* element_094_plutonium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118742A29F5F97B00F04BAA /* element_094_plutonium.usdz */; };
+		411874A129F5F97B00F04BAA /* element_070_ytterbium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118742B29F5F97B00F04BAA /* element_070_ytterbium.usdz */; };
+		411874A229F5F97B00F04BAA /* element_073_tantalum.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118742C29F5F97B00F04BAA /* element_073_tantalum.usdz */; };
+		411874A329F5F97B00F04BAA /* element_033_arsenic.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118742D29F5F97B00F04BAA /* element_033_arsenic.usdz */; };
+		411874A429F5F97B00F04BAA /* element_009_fluorine.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118742E29F5F97B00F04BAA /* element_009_fluorine.usdz */; };
+		411874A529F5F97B00F04BAA /* element_098_californium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118742F29F5F97B00F04BAA /* element_098_californium.usdz */; };
+		411874A629F5F97B00F04BAA /* element_089_actinium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118743029F5F97B00F04BAA /* element_089_actinium.usdz */; };
+		411874A729F5F97B00F04BAA /* element_028_nickel.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118743129F5F97B00F04BAA /* element_028_nickel.usdz */; };
+		411874A829F5F97B00F04BAA /* element_109_meitnerium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4118743229F5F97B00F04BAA /* element_109_meitnerium.usdz */; };
+		411874AB29F5F9C600F04BAA /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874AA29F5F9C600F04BAA /* ViewExtension.swift */; };
+		411874AD29F5F9EF00F04BAA /* PlacementSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874AC29F5F9EF00F04BAA /* PlacementSettings.swift */; };
+		411874B029F5FA2800F04BAA /* SessionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874AF29F5FA2800F04BAA /* SessionSettings.swift */; };
+		411874B329F5FA4E00F04BAA /* ARModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874B229F5FA4E00F04BAA /* ARModel.swift */; };
+		411874B529F5FB6100F04BAA /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874B429F5FB6100F04BAA /* SettingsModel.swift */; };
+		411874B929F5FBAD00F04BAA /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874B729F5FBAD00F04BAA /* CustomARView.swift */; };
+		411874BA29F5FBAD00F04BAA /* ARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874B829F5FBAD00F04BAA /* ARViewRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +146,133 @@
 		411873AC29E0ACAA00F04BAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		411873AE29E0ACAB00F04BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		411873B129E0ACAB00F04BAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		411873B829E0ACBD00F04BAA /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		411873BA29E0ACDC00F04BAA /* PeriodicTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableViewModel.swift; sourceTree = "<group>"; };
+		411873BD29F5F97B00F04BAA /* element_005_boron.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_005_boron.usdz; sourceTree = "<group>"; };
+		411873BE29F5F97B00F04BAA /* element_093_neptunium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_093_neptunium.usdz; sourceTree = "<group>"; };
+		411873BF29F5F97B00F04BAA /* element_039_yttrium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_039_yttrium.usdz; sourceTree = "<group>"; };
+		411873C029F5F97B00F04BAA /* element_112_copernicium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_112_copernicium.usdz; sourceTree = "<group>"; };
+		411873C129F5F97B00F04BAA /* element_086_radon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_086_radon.usdz; sourceTree = "<group>"; };
+		411873C229F5F97B00F04BAA /* element_027_cobalt.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_027_cobalt.usdz; sourceTree = "<group>"; };
+		411873C329F5F97B00F04BAA /* element_117_tennessine.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_117_tennessine.usdz; sourceTree = "<group>"; };
+		411873C429F5F97B00F04BAA /* element_002_helium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_002_helium.usdz; sourceTree = "<group>"; };
+		411873C529F5F97B00F04BAA /* element_051_antimony.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_051_antimony.usdz; sourceTree = "<group>"; };
+		411873C629F5F97B00F04BAA /* element_074_tungsten.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_074_tungsten.usdz; sourceTree = "<group>"; };
+		411873C729F5F97B00F04BAA /* element_050_tin.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_050_tin.usdz; sourceTree = "<group>"; };
+		411873C829F5F97B00F04BAA /* element_110_darmstadtium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_110_darmstadtium.usdz; sourceTree = "<group>"; };
+		411873C929F5F97B00F04BAA /* element_014_silicon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_014_silicon.usdz; sourceTree = "<group>"; };
+		411873CA29F5F97B00F04BAA /* element_061_promethium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_061_promethium.usdz; sourceTree = "<group>"; };
+		411873CB29F5F97B00F04BAA /* element_108_hassium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_108_hassium.usdz; sourceTree = "<group>"; };
+		411873CC29F5F97B00F04BAA /* element_013_aluminum.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_013_aluminum.usdz; sourceTree = "<group>"; };
+		411873CD29F5F97B00F04BAA /* element_007_nitrogen.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_007_nitrogen.usdz; sourceTree = "<group>"; };
+		411873CE29F5F97B00F04BAA /* element_114_flerovium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_114_flerovium.usdz; sourceTree = "<group>"; };
+		411873CF29F5F97B00F04BAA /* element_052_tellurium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_052_tellurium.usdz; sourceTree = "<group>"; };
+		411873D029F5F97B00F04BAA /* element_060_neodymium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_060_neodymium.usdz; sourceTree = "<group>"; };
+		411873D129F5F97B00F04BAA /* element_106_seaborgium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_106_seaborgium.usdz; sourceTree = "<group>"; };
+		411873D229F5F97B00F04BAA /* element_111_roentgenium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_111_roentgenium.usdz; sourceTree = "<group>"; };
+		411873D329F5F97B00F04BAA /* element_071_lutetium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_071_lutetium.usdz; sourceTree = "<group>"; };
+		411873D429F5F97B00F04BAA /* element_046_palladium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_046_palladium.usdz; sourceTree = "<group>"; };
+		411873D529F5F97B00F04BAA /* element_063_europium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_063_europium.usdz; sourceTree = "<group>"; };
+		411873D629F5F97B00F04BAA /* element_113_nihonium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_113_nihonium.usdz; sourceTree = "<group>"; };
+		411873D729F5F97B00F04BAA /* element_102_nobelium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_102_nobelium.usdz; sourceTree = "<group>"; };
+		411873D829F5F97B00F04BAA /* element_069_thulium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_069_thulium.usdz; sourceTree = "<group>"; };
+		411873D929F5F97B00F04BAA /* element_048_cadmium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_048_cadmium.usdz; sourceTree = "<group>"; };
+		411873DA29F5F97B00F04BAA /* element_085_astatine.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_085_astatine.usdz; sourceTree = "<group>"; };
+		411873DB29F5F97B00F04BAA /* element_043_technetium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_043_technetium.usdz; sourceTree = "<group>"; };
+		411873DC29F5F97B00F04BAA /* element_037_rubidium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_037_rubidium.usdz; sourceTree = "<group>"; };
+		411873DD29F5F97B00F04BAA /* element_030_zinc.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_030_zinc.usdz; sourceTree = "<group>"; };
+		411873DE29F5F97B00F04BAA /* element_036_krypton.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_036_krypton.usdz; sourceTree = "<group>"; };
+		411873DF29F5F97B00F04BAA /* element_010_neon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_010_neon.usdz; sourceTree = "<group>"; };
+		411873E029F5F97B00F04BAA /* element_047_silver.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_047_silver.usdz; sourceTree = "<group>"; };
+		411873E129F5F97B00F04BAA /* element_118_oganesson.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_118_oganesson.usdz; sourceTree = "<group>"; };
+		411873E229F5F97B00F04BAA /* element_081_thallium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_081_thallium.usdz; sourceTree = "<group>"; };
+		411873E329F5F97B00F04BAA /* element_029_copper.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_029_copper.usdz; sourceTree = "<group>"; };
+		411873E429F5F97B00F04BAA /* element_025_manganese.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_025_manganese.usdz; sourceTree = "<group>"; };
+		411873E529F5F97B00F04BAA /* element_101_mendelevium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_101_mendelevium.usdz; sourceTree = "<group>"; };
+		411873E629F5F97B00F04BAA /* element_068_erbium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_068_erbium.usdz; sourceTree = "<group>"; };
+		411873E729F5F97B00F04BAA /* element_064_gadolinium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_064_gadolinium.usdz; sourceTree = "<group>"; };
+		411873E829F5F97B00F04BAA /* element_072_hafnium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_072_hafnium.usdz; sourceTree = "<group>"; };
+		411873E929F5F97B00F04BAA /* element_032_germanium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_032_germanium.usdz; sourceTree = "<group>"; };
+		411873EA29F5F97B00F04BAA /* element_054_xenon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_054_xenon.usdz; sourceTree = "<group>"; };
+		411873EB29F5F97B00F04BAA /* element_076_osmium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_076_osmium.usdz; sourceTree = "<group>"; };
+		411873EC29F5F97B00F04BAA /* element_017_chlorine.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_017_chlorine.usdz; sourceTree = "<group>"; };
+		411873ED29F5F97B00F04BAA /* element_020_calcium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_020_calcium.usdz; sourceTree = "<group>"; };
+		411873EE29F5F97B00F04BAA /* element_015_phosphorus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_015_phosphorus.usdz; sourceTree = "<group>"; };
+		411873EF29F5F97B00F04BAA /* element_006_carbon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_006_carbon.usdz; sourceTree = "<group>"; };
+		411873F029F5F97B00F04BAA /* element_080_mercury.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_080_mercury.usdz; sourceTree = "<group>"; };
+		411873F129F5F97B00F04BAA /* element_004_beryllium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_004_beryllium.usdz; sourceTree = "<group>"; };
+		411873F229F5F97B00F04BAA /* element_035_bromine.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_035_bromine.usdz; sourceTree = "<group>"; };
+		411873F329F5F97B00F04BAA /* element_023_vanadium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_023_vanadium.usdz; sourceTree = "<group>"; };
+		411873F429F5F97B00F04BAA /* element_079_gold.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_079_gold.usdz; sourceTree = "<group>"; };
+		411873F529F5F97B00F04BAA /* element_078_platinum.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_078_platinum.usdz; sourceTree = "<group>"; };
+		411873F629F5F97B00F04BAA /* element_062_samarium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_062_samarium.usdz; sourceTree = "<group>"; };
+		411873F729F5F97B00F04BAA /* element_105_dubnium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_105_dubnium.usdz; sourceTree = "<group>"; };
+		411873F829F5F97B00F04BAA /* element_055_cesium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_055_cesium.usdz; sourceTree = "<group>"; };
+		411873F929F5F97B00F04BAA /* element_016_sulfur.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_016_sulfur.usdz; sourceTree = "<group>"; };
+		411873FA29F5F97B00F04BAA /* element_057_lanthanum.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_057_lanthanum.usdz; sourceTree = "<group>"; };
+		411873FB29F5F97B00F04BAA /* element_049_indium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_049_indium.usdz; sourceTree = "<group>"; };
+		411873FC29F5F97B00F04BAA /* element_038_strontium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_038_strontium.usdz; sourceTree = "<group>"; };
+		411873FD29F5F97B00F04BAA /* element_088_radium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_088_radium.usdz; sourceTree = "<group>"; };
+		411873FE29F5F97B00F04BAA /* element_082_lead.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_082_lead.usdz; sourceTree = "<group>"; };
+		411873FF29F5F97B00F04BAA /* element_092_uranium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_092_uranium.usdz; sourceTree = "<group>"; };
+		4118740029F5F97B00F04BAA /* element_090_thorium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_090_thorium.usdz; sourceTree = "<group>"; };
+		4118740129F5F97B00F04BAA /* element_065_terbium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_065_terbium.usdz; sourceTree = "<group>"; };
+		4118740229F5F97B00F04BAA /* element_087_francium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_087_francium.usdz; sourceTree = "<group>"; };
+		4118740329F5F97B00F04BAA /* element_104_rutherfordium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_104_rutherfordium.usdz; sourceTree = "<group>"; };
+		4118740429F5F97B00F04BAA /* element_021_scandium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_021_scandium.usdz; sourceTree = "<group>"; };
+		4118740529F5F97B00F04BAA /* element_084_polonium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_084_polonium.usdz; sourceTree = "<group>"; };
+		4118740629F5F97B00F04BAA /* element_096_curium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_096_curium.usdz; sourceTree = "<group>"; };
+		4118740729F5F97B00F04BAA /* element_012_magnesium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_012_magnesium.usdz; sourceTree = "<group>"; };
+		4118740829F5F97B00F04BAA /* element_100_fermium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_100_fermium.usdz; sourceTree = "<group>"; };
+		4118740929F5F97B00F04BAA /* element_083_bismuth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_083_bismuth.usdz; sourceTree = "<group>"; };
+		4118740A29F5F97B00F04BAA /* element_059_praseodymium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_059_praseodymium.usdz; sourceTree = "<group>"; };
+		4118740B29F5F97B00F04BAA /* element_044_ruthenium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_044_ruthenium.usdz; sourceTree = "<group>"; };
+		4118740C29F5F97B00F04BAA /* element_011_sodium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_011_sodium.usdz; sourceTree = "<group>"; };
+		4118740D29F5F97B00F04BAA /* element_095_americium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_095_americium.usdz; sourceTree = "<group>"; };
+		4118740E29F5F97B00F04BAA /* element_056_barium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_056_barium.usdz; sourceTree = "<group>"; };
+		4118740F29F5F97B00F04BAA /* element_045_rhodium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_045_rhodium.usdz; sourceTree = "<group>"; };
+		4118741029F5F97B00F04BAA /* element_097_berkelium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_097_berkelium.usdz; sourceTree = "<group>"; };
+		4118741129F5F97B00F04BAA /* element_001_hydrogen.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_001_hydrogen.usdz; sourceTree = "<group>"; };
+		4118741229F5F97B00F04BAA /* element_091_protactinium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_091_protactinium.usdz; sourceTree = "<group>"; };
+		4118741329F5F97B00F04BAA /* element_018_argon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_018_argon.usdz; sourceTree = "<group>"; };
+		4118741429F5F97B00F04BAA /* element_116_livermorium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_116_livermorium.usdz; sourceTree = "<group>"; };
+		4118741529F5F97B00F04BAA /* element_022_titanium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_022_titanium.usdz; sourceTree = "<group>"; };
+		4118741629F5F97B00F04BAA /* element_031_gallium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_031_gallium.usdz; sourceTree = "<group>"; };
+		4118741729F5F97B00F04BAA /* element_053_iodine.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_053_iodine.usdz; sourceTree = "<group>"; };
+		4118741829F5F97B00F04BAA /* element_103_lawrencium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_103_lawrencium.usdz; sourceTree = "<group>"; };
+		4118741929F5F97B00F04BAA /* element_077_iridium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_077_iridium.usdz; sourceTree = "<group>"; };
+		4118741A29F5F97B00F04BAA /* element_115_moscovium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_115_moscovium.usdz; sourceTree = "<group>"; };
+		4118741B29F5F97B00F04BAA /* element_026_iron.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_026_iron.usdz; sourceTree = "<group>"; };
+		4118741C29F5F97B00F04BAA /* element_042_molybdenum.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_042_molybdenum.usdz; sourceTree = "<group>"; };
+		4118741D29F5F97B00F04BAA /* element_066_dysprosium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_066_dysprosium.usdz; sourceTree = "<group>"; };
+		4118741E29F5F97B00F04BAA /* element_041_niobium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_041_niobium.usdz; sourceTree = "<group>"; };
+		4118741F29F5F97B00F04BAA /* element_075_rhenium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_075_rhenium.usdz; sourceTree = "<group>"; };
+		4118742029F5F97B00F04BAA /* element_099_einsteinium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_099_einsteinium.usdz; sourceTree = "<group>"; };
+		4118742129F5F97B00F04BAA /* element_003_lithium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_003_lithium.usdz; sourceTree = "<group>"; };
+		4118742229F5F97B00F04BAA /* element_067_holmium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_067_holmium.usdz; sourceTree = "<group>"; };
+		4118742329F5F97B00F04BAA /* element_008_oxygen.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_008_oxygen.usdz; sourceTree = "<group>"; };
+		4118742429F5F97B00F04BAA /* element_034_selenium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_034_selenium.usdz; sourceTree = "<group>"; };
+		4118742529F5F97B00F04BAA /* element_019_potassium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_019_potassium.usdz; sourceTree = "<group>"; };
+		4118742629F5F97B00F04BAA /* element_058_cerium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_058_cerium.usdz; sourceTree = "<group>"; };
+		4118742729F5F97B00F04BAA /* element_024_chromium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_024_chromium.usdz; sourceTree = "<group>"; };
+		4118742829F5F97B00F04BAA /* element_107_bohrium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_107_bohrium.usdz; sourceTree = "<group>"; };
+		4118742929F5F97B00F04BAA /* element_040_zirconium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_040_zirconium.usdz; sourceTree = "<group>"; };
+		4118742A29F5F97B00F04BAA /* element_094_plutonium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_094_plutonium.usdz; sourceTree = "<group>"; };
+		4118742B29F5F97B00F04BAA /* element_070_ytterbium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_070_ytterbium.usdz; sourceTree = "<group>"; };
+		4118742C29F5F97B00F04BAA /* element_073_tantalum.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_073_tantalum.usdz; sourceTree = "<group>"; };
+		4118742D29F5F97B00F04BAA /* element_033_arsenic.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_033_arsenic.usdz; sourceTree = "<group>"; };
+		4118742E29F5F97B00F04BAA /* element_009_fluorine.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_009_fluorine.usdz; sourceTree = "<group>"; };
+		4118742F29F5F97B00F04BAA /* element_098_californium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_098_californium.usdz; sourceTree = "<group>"; };
+		4118743029F5F97B00F04BAA /* element_089_actinium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_089_actinium.usdz; sourceTree = "<group>"; };
+		4118743129F5F97B00F04BAA /* element_028_nickel.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_028_nickel.usdz; sourceTree = "<group>"; };
+		4118743229F5F97B00F04BAA /* element_109_meitnerium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_109_meitnerium.usdz; sourceTree = "<group>"; };
+		411874AA29F5F9C600F04BAA /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		411874AC29F5F9EF00F04BAA /* PlacementSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementSettings.swift; sourceTree = "<group>"; };
+		411874AF29F5FA2800F04BAA /* SessionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSettings.swift; sourceTree = "<group>"; };
+		411874B229F5FA4E00F04BAA /* ARModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARModel.swift; sourceTree = "<group>"; };
+		411874B429F5FB6100F04BAA /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		411874B729F5FBAD00F04BAA /* CustomARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		411874B829F5FBAD00F04BAA /* ARViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +305,15 @@
 		411873A929E0ACAA00F04BAA /* Chementis */ = {
 			isa = PBXGroup;
 			children = (
+				411874B629F5FBAD00F04BAA /* UIKit */,
+				411874B129F5FA4700F04BAA /* Models */,
+				411874AE29F5F9F800F04BAA /* Managers */,
+				411874A929F5F9BA00F04BAA /* Extensions */,
 				411873AA29E0ACAA00F04BAA /* ChementisApp.swift */,
 				411873AC29E0ACAA00F04BAA /* ContentView.swift */,
+				411873B829E0ACBD00F04BAA /* Element.swift */,
+				411873BA29E0ACDC00F04BAA /* PeriodicTableViewModel.swift */,
+				411873BC29F5F97B00F04BAA /* Elements3D */,
 				411873AE29E0ACAB00F04BAA /* Assets.xcassets */,
 				411873B029E0ACAB00F04BAA /* Preview Content */,
 			);
@@ -65,6 +326,166 @@
 				411873B129E0ACAB00F04BAA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		411873BC29F5F97B00F04BAA /* Elements3D */ = {
+			isa = PBXGroup;
+			children = (
+				411873BD29F5F97B00F04BAA /* element_005_boron.usdz */,
+				411873BE29F5F97B00F04BAA /* element_093_neptunium.usdz */,
+				411873BF29F5F97B00F04BAA /* element_039_yttrium.usdz */,
+				411873C029F5F97B00F04BAA /* element_112_copernicium.usdz */,
+				411873C129F5F97B00F04BAA /* element_086_radon.usdz */,
+				411873C229F5F97B00F04BAA /* element_027_cobalt.usdz */,
+				411873C329F5F97B00F04BAA /* element_117_tennessine.usdz */,
+				411873C429F5F97B00F04BAA /* element_002_helium.usdz */,
+				411873C529F5F97B00F04BAA /* element_051_antimony.usdz */,
+				411873C629F5F97B00F04BAA /* element_074_tungsten.usdz */,
+				411873C729F5F97B00F04BAA /* element_050_tin.usdz */,
+				411873C829F5F97B00F04BAA /* element_110_darmstadtium.usdz */,
+				411873C929F5F97B00F04BAA /* element_014_silicon.usdz */,
+				411873CA29F5F97B00F04BAA /* element_061_promethium.usdz */,
+				411873CB29F5F97B00F04BAA /* element_108_hassium.usdz */,
+				411873CC29F5F97B00F04BAA /* element_013_aluminum.usdz */,
+				411873CD29F5F97B00F04BAA /* element_007_nitrogen.usdz */,
+				411873CE29F5F97B00F04BAA /* element_114_flerovium.usdz */,
+				411873CF29F5F97B00F04BAA /* element_052_tellurium.usdz */,
+				411873D029F5F97B00F04BAA /* element_060_neodymium.usdz */,
+				411873D129F5F97B00F04BAA /* element_106_seaborgium.usdz */,
+				411873D229F5F97B00F04BAA /* element_111_roentgenium.usdz */,
+				411873D329F5F97B00F04BAA /* element_071_lutetium.usdz */,
+				411873D429F5F97B00F04BAA /* element_046_palladium.usdz */,
+				411873D529F5F97B00F04BAA /* element_063_europium.usdz */,
+				411873D629F5F97B00F04BAA /* element_113_nihonium.usdz */,
+				411873D729F5F97B00F04BAA /* element_102_nobelium.usdz */,
+				411873D829F5F97B00F04BAA /* element_069_thulium.usdz */,
+				411873D929F5F97B00F04BAA /* element_048_cadmium.usdz */,
+				411873DA29F5F97B00F04BAA /* element_085_astatine.usdz */,
+				411873DB29F5F97B00F04BAA /* element_043_technetium.usdz */,
+				411873DC29F5F97B00F04BAA /* element_037_rubidium.usdz */,
+				411873DD29F5F97B00F04BAA /* element_030_zinc.usdz */,
+				411873DE29F5F97B00F04BAA /* element_036_krypton.usdz */,
+				411873DF29F5F97B00F04BAA /* element_010_neon.usdz */,
+				411873E029F5F97B00F04BAA /* element_047_silver.usdz */,
+				411873E129F5F97B00F04BAA /* element_118_oganesson.usdz */,
+				411873E229F5F97B00F04BAA /* element_081_thallium.usdz */,
+				411873E329F5F97B00F04BAA /* element_029_copper.usdz */,
+				411873E429F5F97B00F04BAA /* element_025_manganese.usdz */,
+				411873E529F5F97B00F04BAA /* element_101_mendelevium.usdz */,
+				411873E629F5F97B00F04BAA /* element_068_erbium.usdz */,
+				411873E729F5F97B00F04BAA /* element_064_gadolinium.usdz */,
+				411873E829F5F97B00F04BAA /* element_072_hafnium.usdz */,
+				411873E929F5F97B00F04BAA /* element_032_germanium.usdz */,
+				411873EA29F5F97B00F04BAA /* element_054_xenon.usdz */,
+				411873EB29F5F97B00F04BAA /* element_076_osmium.usdz */,
+				411873EC29F5F97B00F04BAA /* element_017_chlorine.usdz */,
+				411873ED29F5F97B00F04BAA /* element_020_calcium.usdz */,
+				411873EE29F5F97B00F04BAA /* element_015_phosphorus.usdz */,
+				411873EF29F5F97B00F04BAA /* element_006_carbon.usdz */,
+				411873F029F5F97B00F04BAA /* element_080_mercury.usdz */,
+				411873F129F5F97B00F04BAA /* element_004_beryllium.usdz */,
+				411873F229F5F97B00F04BAA /* element_035_bromine.usdz */,
+				411873F329F5F97B00F04BAA /* element_023_vanadium.usdz */,
+				411873F429F5F97B00F04BAA /* element_079_gold.usdz */,
+				411873F529F5F97B00F04BAA /* element_078_platinum.usdz */,
+				411873F629F5F97B00F04BAA /* element_062_samarium.usdz */,
+				411873F729F5F97B00F04BAA /* element_105_dubnium.usdz */,
+				411873F829F5F97B00F04BAA /* element_055_cesium.usdz */,
+				411873F929F5F97B00F04BAA /* element_016_sulfur.usdz */,
+				411873FA29F5F97B00F04BAA /* element_057_lanthanum.usdz */,
+				411873FB29F5F97B00F04BAA /* element_049_indium.usdz */,
+				411873FC29F5F97B00F04BAA /* element_038_strontium.usdz */,
+				411873FD29F5F97B00F04BAA /* element_088_radium.usdz */,
+				411873FE29F5F97B00F04BAA /* element_082_lead.usdz */,
+				411873FF29F5F97B00F04BAA /* element_092_uranium.usdz */,
+				4118740029F5F97B00F04BAA /* element_090_thorium.usdz */,
+				4118740129F5F97B00F04BAA /* element_065_terbium.usdz */,
+				4118740229F5F97B00F04BAA /* element_087_francium.usdz */,
+				4118740329F5F97B00F04BAA /* element_104_rutherfordium.usdz */,
+				4118740429F5F97B00F04BAA /* element_021_scandium.usdz */,
+				4118740529F5F97B00F04BAA /* element_084_polonium.usdz */,
+				4118740629F5F97B00F04BAA /* element_096_curium.usdz */,
+				4118740729F5F97B00F04BAA /* element_012_magnesium.usdz */,
+				4118740829F5F97B00F04BAA /* element_100_fermium.usdz */,
+				4118740929F5F97B00F04BAA /* element_083_bismuth.usdz */,
+				4118740A29F5F97B00F04BAA /* element_059_praseodymium.usdz */,
+				4118740B29F5F97B00F04BAA /* element_044_ruthenium.usdz */,
+				4118740C29F5F97B00F04BAA /* element_011_sodium.usdz */,
+				4118740D29F5F97B00F04BAA /* element_095_americium.usdz */,
+				4118740E29F5F97B00F04BAA /* element_056_barium.usdz */,
+				4118740F29F5F97B00F04BAA /* element_045_rhodium.usdz */,
+				4118741029F5F97B00F04BAA /* element_097_berkelium.usdz */,
+				4118741129F5F97B00F04BAA /* element_001_hydrogen.usdz */,
+				4118741229F5F97B00F04BAA /* element_091_protactinium.usdz */,
+				4118741329F5F97B00F04BAA /* element_018_argon.usdz */,
+				4118741429F5F97B00F04BAA /* element_116_livermorium.usdz */,
+				4118741529F5F97B00F04BAA /* element_022_titanium.usdz */,
+				4118741629F5F97B00F04BAA /* element_031_gallium.usdz */,
+				4118741729F5F97B00F04BAA /* element_053_iodine.usdz */,
+				4118741829F5F97B00F04BAA /* element_103_lawrencium.usdz */,
+				4118741929F5F97B00F04BAA /* element_077_iridium.usdz */,
+				4118741A29F5F97B00F04BAA /* element_115_moscovium.usdz */,
+				4118741B29F5F97B00F04BAA /* element_026_iron.usdz */,
+				4118741C29F5F97B00F04BAA /* element_042_molybdenum.usdz */,
+				4118741D29F5F97B00F04BAA /* element_066_dysprosium.usdz */,
+				4118741E29F5F97B00F04BAA /* element_041_niobium.usdz */,
+				4118741F29F5F97B00F04BAA /* element_075_rhenium.usdz */,
+				4118742029F5F97B00F04BAA /* element_099_einsteinium.usdz */,
+				4118742129F5F97B00F04BAA /* element_003_lithium.usdz */,
+				4118742229F5F97B00F04BAA /* element_067_holmium.usdz */,
+				4118742329F5F97B00F04BAA /* element_008_oxygen.usdz */,
+				4118742429F5F97B00F04BAA /* element_034_selenium.usdz */,
+				4118742529F5F97B00F04BAA /* element_019_potassium.usdz */,
+				4118742629F5F97B00F04BAA /* element_058_cerium.usdz */,
+				4118742729F5F97B00F04BAA /* element_024_chromium.usdz */,
+				4118742829F5F97B00F04BAA /* element_107_bohrium.usdz */,
+				4118742929F5F97B00F04BAA /* element_040_zirconium.usdz */,
+				4118742A29F5F97B00F04BAA /* element_094_plutonium.usdz */,
+				4118742B29F5F97B00F04BAA /* element_070_ytterbium.usdz */,
+				4118742C29F5F97B00F04BAA /* element_073_tantalum.usdz */,
+				4118742D29F5F97B00F04BAA /* element_033_arsenic.usdz */,
+				4118742E29F5F97B00F04BAA /* element_009_fluorine.usdz */,
+				4118742F29F5F97B00F04BAA /* element_098_californium.usdz */,
+				4118743029F5F97B00F04BAA /* element_089_actinium.usdz */,
+				4118743129F5F97B00F04BAA /* element_028_nickel.usdz */,
+				4118743229F5F97B00F04BAA /* element_109_meitnerium.usdz */,
+			);
+			path = Elements3D;
+			sourceTree = "<group>";
+		};
+		411874A929F5F9BA00F04BAA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				411874AA29F5F9C600F04BAA /* ViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		411874AE29F5F9F800F04BAA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				411874AC29F5F9EF00F04BAA /* PlacementSettings.swift */,
+				411874AF29F5FA2800F04BAA /* SessionSettings.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		411874B129F5FA4700F04BAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				411874B229F5FA4E00F04BAA /* ARModel.swift */,
+				411874B429F5FB6100F04BAA /* SettingsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		411874B629F5FBAD00F04BAA /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				411874B729F5FBAD00F04BAA /* CustomARView.swift */,
+				411874B829F5FBAD00F04BAA /* ARViewRepresentable.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +546,126 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411874A829F5F97B00F04BAA /* element_109_meitnerium.usdz in Resources */,
+				4118749429F5F97B00F04BAA /* element_041_niobium.usdz in Resources */,
+				411874A229F5F97B00F04BAA /* element_073_tantalum.usdz in Resources */,
+				4118743729F5F97B00F04BAA /* element_086_radon.usdz in Resources */,
+				4118745E29F5F97B00F04BAA /* element_072_hafnium.usdz in Resources */,
+				4118747A29F5F97B00F04BAA /* element_021_scandium.usdz in Resources */,
+				4118744429F5F97B00F04BAA /* element_114_flerovium.usdz in Resources */,
+				4118743829F5F97B00F04BAA /* element_027_cobalt.usdz in Resources */,
+				4118744A29F5F97B00F04BAA /* element_046_palladium.usdz in Resources */,
+				4118748029F5F97B00F04BAA /* element_059_praseodymium.usdz in Resources */,
+				411874A129F5F97B00F04BAA /* element_070_ytterbium.usdz in Resources */,
+				4118744129F5F97B00F04BAA /* element_108_hassium.usdz in Resources */,
+				4118747D29F5F97B00F04BAA /* element_012_magnesium.usdz in Resources */,
+				4118748A29F5F97B00F04BAA /* element_116_livermorium.usdz in Resources */,
+				4118745629F5F97B00F04BAA /* element_047_silver.usdz in Resources */,
+				411874A529F5F97B00F04BAA /* element_098_californium.usdz in Resources */,
+				4118749829F5F97B00F04BAA /* element_067_holmium.usdz in Resources */,
+				4118744729F5F97B00F04BAA /* element_106_seaborgium.usdz in Resources */,
+				4118747229F5F97B00F04BAA /* element_038_strontium.usdz in Resources */,
+				4118749629F5F97B00F04BAA /* element_099_einsteinium.usdz in Resources */,
+				4118749D29F5F97B00F04BAA /* element_024_chromium.usdz in Resources */,
+				4118743929F5F97B00F04BAA /* element_117_tennessine.usdz in Resources */,
+				4118745329F5F97B00F04BAA /* element_030_zinc.usdz in Resources */,
+				4118749029F5F97B00F04BAA /* element_115_moscovium.usdz in Resources */,
+				4118747629F5F97B00F04BAA /* element_090_thorium.usdz in Resources */,
+				4118744929F5F97B00F04BAA /* element_071_lutetium.usdz in Resources */,
+				4118749129F5F97B00F04BAA /* element_026_iron.usdz in Resources */,
+				4118748729F5F97B00F04BAA /* element_001_hydrogen.usdz in Resources */,
+				4118746329F5F97B00F04BAA /* element_020_calcium.usdz in Resources */,
+				4118743629F5F97B00F04BAA /* element_112_copernicium.usdz in Resources */,
+				4118743E29F5F97B00F04BAA /* element_110_darmstadtium.usdz in Resources */,
+				4118744829F5F97B00F04BAA /* element_111_roentgenium.usdz in Resources */,
+				4118745929F5F97B00F04BAA /* element_029_copper.usdz in Resources */,
+				4118746B29F5F97B00F04BAA /* element_078_platinum.usdz in Resources */,
+				4118746D29F5F97B00F04BAA /* element_105_dubnium.usdz in Resources */,
+				4118749729F5F97B00F04BAA /* element_003_lithium.usdz in Resources */,
+				411874A029F5F97B00F04BAA /* element_094_plutonium.usdz in Resources */,
+				4118748929F5F97B00F04BAA /* element_018_argon.usdz in Resources */,
+				4118748329F5F97B00F04BAA /* element_095_americium.usdz in Resources */,
+				411874A329F5F97B00F04BAA /* element_033_arsenic.usdz in Resources */,
+				4118748C29F5F97B00F04BAA /* element_031_gallium.usdz in Resources */,
+				4118745029F5F97B00F04BAA /* element_085_astatine.usdz in Resources */,
+				4118748829F5F97B00F04BAA /* element_091_protactinium.usdz in Resources */,
+				4118749A29F5F97B00F04BAA /* element_034_selenium.usdz in Resources */,
+				4118743F29F5F97B00F04BAA /* element_014_silicon.usdz in Resources */,
+				4118747F29F5F97B00F04BAA /* element_083_bismuth.usdz in Resources */,
+				4118749E29F5F97B00F04BAA /* element_107_bohrium.usdz in Resources */,
+				4118743C29F5F97B00F04BAA /* element_074_tungsten.usdz in Resources */,
+				4118744D29F5F97B00F04BAA /* element_102_nobelium.usdz in Resources */,
+				4118746029F5F97B00F04BAA /* element_054_xenon.usdz in Resources */,
+				4118745F29F5F97B00F04BAA /* element_032_germanium.usdz in Resources */,
+				4118748D29F5F97B00F04BAA /* element_053_iodine.usdz in Resources */,
+				4118745529F5F97B00F04BAA /* element_010_neon.usdz in Resources */,
+				4118744629F5F97B00F04BAA /* element_060_neodymium.usdz in Resources */,
+				4118747029F5F97B00F04BAA /* element_057_lanthanum.usdz in Resources */,
+				4118746829F5F97B00F04BAA /* element_035_bromine.usdz in Resources */,
+				4118744F29F5F97B00F04BAA /* element_048_cadmium.usdz in Resources */,
+				4118743B29F5F97B00F04BAA /* element_051_antimony.usdz in Resources */,
+				4118746C29F5F97B00F04BAA /* element_062_samarium.usdz in Resources */,
+				411874A629F5F97B00F04BAA /* element_089_actinium.usdz in Resources */,
+				4118748129F5F97B00F04BAA /* element_044_ruthenium.usdz in Resources */,
+				4118745129F5F97B00F04BAA /* element_043_technetium.usdz in Resources */,
+				4118746729F5F97B00F04BAA /* element_004_beryllium.usdz in Resources */,
+				4118745829F5F97B00F04BAA /* element_081_thallium.usdz in Resources */,
+				4118746129F5F97B00F04BAA /* element_076_osmium.usdz in Resources */,
+				4118746929F5F97B00F04BAA /* element_023_vanadium.usdz in Resources */,
+				4118747429F5F97B00F04BAA /* element_082_lead.usdz in Resources */,
+				4118749229F5F97B00F04BAA /* element_042_molybdenum.usdz in Resources */,
+				4118748F29F5F97B00F04BAA /* element_077_iridium.usdz in Resources */,
+				4118744529F5F97B00F04BAA /* element_052_tellurium.usdz in Resources */,
+				4118747129F5F97B00F04BAA /* element_049_indium.usdz in Resources */,
+				4118745729F5F97B00F04BAA /* element_118_oganesson.usdz in Resources */,
+				4118747E29F5F97B00F04BAA /* element_100_fermium.usdz in Resources */,
+				4118749529F5F97B00F04BAA /* element_075_rhenium.usdz in Resources */,
+				4118749B29F5F97B00F04BAA /* element_019_potassium.usdz in Resources */,
+				4118744229F5F97B00F04BAA /* element_013_aluminum.usdz in Resources */,
+				4118744C29F5F97B00F04BAA /* element_113_nihonium.usdz in Resources */,
+				4118745B29F5F97B00F04BAA /* element_101_mendelevium.usdz in Resources */,
+				4118747B29F5F97B00F04BAA /* element_084_polonium.usdz in Resources */,
+				4118745A29F5F97B00F04BAA /* element_025_manganese.usdz in Resources */,
+				4118744329F5F97B00F04BAA /* element_007_nitrogen.usdz in Resources */,
+				4118744029F5F97B00F04BAA /* element_061_promethium.usdz in Resources */,
+				4118743D29F5F97B00F04BAA /* element_050_tin.usdz in Resources */,
+				4118743329F5F97B00F04BAA /* element_005_boron.usdz in Resources */,
+				4118746529F5F97B00F04BAA /* element_006_carbon.usdz in Resources */,
 				411873B229E0ACAB00F04BAA /* Preview Assets.xcassets in Resources */,
+				4118746229F5F97B00F04BAA /* element_017_chlorine.usdz in Resources */,
 				411873AF29E0ACAB00F04BAA /* Assets.xcassets in Resources */,
+				4118746E29F5F97B00F04BAA /* element_055_cesium.usdz in Resources */,
+				411874A429F5F97B00F04BAA /* element_009_fluorine.usdz in Resources */,
+				4118745229F5F97B00F04BAA /* element_037_rubidium.usdz in Resources */,
+				4118743A29F5F97B00F04BAA /* element_002_helium.usdz in Resources */,
+				4118748B29F5F97B00F04BAA /* element_022_titanium.usdz in Resources */,
+				4118746629F5F97B00F04BAA /* element_080_mercury.usdz in Resources */,
+				4118743529F5F97B00F04BAA /* element_039_yttrium.usdz in Resources */,
+				4118745429F5F97B00F04BAA /* element_036_krypton.usdz in Resources */,
+				4118747929F5F97B00F04BAA /* element_104_rutherfordium.usdz in Resources */,
+				4118746A29F5F97B00F04BAA /* element_079_gold.usdz in Resources */,
+				4118748429F5F97B00F04BAA /* element_056_barium.usdz in Resources */,
+				4118749F29F5F97B00F04BAA /* element_040_zirconium.usdz in Resources */,
+				4118744E29F5F97B00F04BAA /* element_069_thulium.usdz in Resources */,
+				4118748229F5F97B00F04BAA /* element_011_sodium.usdz in Resources */,
+				4118745C29F5F97B00F04BAA /* element_068_erbium.usdz in Resources */,
+				4118749929F5F97B00F04BAA /* element_008_oxygen.usdz in Resources */,
+				4118748629F5F97B00F04BAA /* element_097_berkelium.usdz in Resources */,
+				4118746429F5F97B00F04BAA /* element_015_phosphorus.usdz in Resources */,
+				411874A729F5F97B00F04BAA /* element_028_nickel.usdz in Resources */,
+				4118743429F5F97B00F04BAA /* element_093_neptunium.usdz in Resources */,
+				4118747829F5F97B00F04BAA /* element_087_francium.usdz in Resources */,
+				4118749C29F5F97B00F04BAA /* element_058_cerium.usdz in Resources */,
+				4118747329F5F97B00F04BAA /* element_088_radium.usdz in Resources */,
+				4118746F29F5F97B00F04BAA /* element_016_sulfur.usdz in Resources */,
+				4118744B29F5F97B00F04BAA /* element_063_europium.usdz in Resources */,
+				4118749329F5F97B00F04BAA /* element_066_dysprosium.usdz in Resources */,
+				4118747729F5F97B00F04BAA /* element_065_terbium.usdz in Resources */,
+				4118748529F5F97B00F04BAA /* element_045_rhodium.usdz in Resources */,
+				4118748E29F5F97B00F04BAA /* element_103_lawrencium.usdz in Resources */,
+				4118747529F5F97B00F04BAA /* element_092_uranium.usdz in Resources */,
+				4118745D29F5F97B00F04BAA /* element_064_gadolinium.usdz in Resources */,
+				4118747C29F5F97B00F04BAA /* element_096_curium.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +676,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411874B929F5FBAD00F04BAA /* CustomARView.swift in Sources */,
+				411874B529F5FB6100F04BAA /* SettingsModel.swift in Sources */,
+				411874B029F5FA2800F04BAA /* SessionSettings.swift in Sources */,
+				411874BA29F5FBAD00F04BAA /* ARViewRepresentable.swift in Sources */,
+				411874AD29F5F9EF00F04BAA /* PlacementSettings.swift in Sources */,
 				411873AD29E0ACAA00F04BAA /* ContentView.swift in Sources */,
 				411873AB29E0ACAA00F04BAA /* ChementisApp.swift in Sources */,
+				411874B329F5FA4E00F04BAA /* ARModel.swift in Sources */,
+				411873BB29E0ACDC00F04BAA /* PeriodicTableViewModel.swift in Sources */,
+				411873B929E0ACBD00F04BAA /* Element.swift in Sources */,
+				411874AB29F5F9C600F04BAA /* ViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
