@@ -157,6 +157,7 @@
 		411874F229F7081000F04BAA /* ModelEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874F129F7081000F04BAA /* ModelEntityExtension.swift */; };
 		411874F429F70AAF00F04BAA /* ARHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874F329F70AAF00F04BAA /* ARHelper.swift */; };
 		411874F629F70E8000F04BAA /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874F529F70E8000F04BAA /* StringExtension.swift */; };
+		411874F929F72F3B00F04BAA /* ARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874F829F72F3B00F04BAA /* ARViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -310,6 +311,7 @@
 		411874F129F7081000F04BAA /* ModelEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelEntityExtension.swift; sourceTree = "<group>"; };
 		411874F329F70AAF00F04BAA /* ARHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARHelper.swift; sourceTree = "<group>"; };
 		411874F529F70E8000F04BAA /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		411874F829F72F3B00F04BAA /* ARViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -345,8 +347,9 @@
 			children = (
 				411873AA29E0ACAA00F04BAA /* ChementisApp.swift */,
 				411873AC29E0ACAA00F04BAA /* ContentView.swift */,
-				411874C429F5FE0C00F04BAA /* Views */,
 				411874B129F5FA4700F04BAA /* Models */,
+				411874C429F5FE0C00F04BAA /* Views */,
+				411874F729F72F1C00F04BAA /* ViewModels */,
 				411874AE29F5F9F800F04BAA /* Managers */,
 				411874A929F5F9BA00F04BAA /* Extensions */,
 				411873BC29F5F97B00F04BAA /* Elements3D */,
@@ -576,6 +579,14 @@
 			path = ControlViews;
 			sourceTree = "<group>";
 		};
+		411874F729F72F1C00F04BAA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				411874F829F72F3B00F04BAA /* ARViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -785,6 +796,7 @@
 				411874F629F70E8000F04BAA /* StringExtension.swift in Sources */,
 				411874EA29F5FE0C00F04BAA /* ControlView.swift in Sources */,
 				411874E129F5FE0C00F04BAA /* ModelsGridView.swift in Sources */,
+				411874F929F72F3B00F04BAA /* ARViewModel.swift in Sources */,
 				411873AB29E0ACAA00F04BAA /* ChementisApp.swift in Sources */,
 				411874DC29F5FE0C00F04BAA /* SettingsToggleButton.swift in Sources */,
 				411874F429F70AAF00F04BAA /* ARHelper.swift in Sources */,

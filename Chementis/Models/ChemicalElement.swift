@@ -8,19 +8,17 @@
 import Foundation
 
 struct ChemicalElement: Codable {
-    let atomicNumber: Int?
-    let atomicMass: Double?
+    let atomicNumber: String?
+    let atomicMass: String?
     let electronConfiguration: String?
-    let density: Double?
-    let meltingPoint: Double?
-    let boilingPoint: Double?
-    
-    enum CodingKeys: String, CodingKey {
-        case atomicNumber = "number"
-        case atomicMass = "standard_atomic_weight"
-        case electronConfiguration = "electron_configuration"
-        case density
-        case meltingPoint = "melting_point"
-        case boilingPoint = "boiling_point"
-    }
+    let meltingPoint: String?
+    let boilingPoint: String?
+    let name: String?
+    let symbol: String?
+    let standardState: String?
+    let magneticOrdering: String?
+    let facts: String?
+    let history: String?
+    let yearDiscovered: String?
+    let groupBlock: String?
 }
