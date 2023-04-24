@@ -66,9 +66,11 @@ struct Models {
     
     init() {
         // Element Models
-        let hydrogen = ARModel(name: "element_001_hydrogen", category: .element, scaleCompensation: 37 / 100)
-        let helium = ARModel(name: "element_001_helium", category: .element, scaleCompensation: 37 / 100)
-        self.arModels += [hydrogen, helium]
+        let hydrogen = ARModel(name: "element_001_hydrogen", category: .element, scaleCompensation: 67 / 100)
+        let helium = ARModel(name: "element_002_helium", category: .element, scaleCompensation: 67 / 100)
+        let lithium = ARModel(name: "element_003_lithium", category: .element, scaleCompensation: 67 / 100)
+        let beryllium = ARModel(name: "element_004_beryllium", category: .element, scaleCompensation: 67 / 100)
+        self.arModels += [hydrogen, helium, lithium, beryllium]
     }
     
     func get(category: ModelCategory) -> [ARModel] {
