@@ -65,7 +65,7 @@ struct Models {
     var arModels: [ARModel] = []
     
     init() {
-        // Element Models
+        // Element Models -- NEED TO ADD ALL 118
         let hydrogen = ARModel(name: "element_001_hydrogen", category: .element, scaleCompensation: 67 / 100)
         let helium = ARModel(name: "element_002_helium", category: .element, scaleCompensation: 67 / 100)
         let lithium = ARModel(name: "element_003_lithium", category: .element, scaleCompensation: 67 / 100)
