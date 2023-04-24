@@ -11,8 +11,6 @@
 		411873AD29E0ACAA00F04BAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411873AC29E0ACAA00F04BAA /* ContentView.swift */; };
 		411873AF29E0ACAB00F04BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411873AE29E0ACAB00F04BAA /* Assets.xcassets */; };
 		411873B229E0ACAB00F04BAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411873B129E0ACAB00F04BAA /* Preview Assets.xcassets */; };
-		411873B929E0ACBD00F04BAA /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411873B829E0ACBD00F04BAA /* Element.swift */; };
-		411873BB29E0ACDC00F04BAA /* PeriodicTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411873BA29E0ACDC00F04BAA /* PeriodicTableViewModel.swift */; };
 		4118743329F5F97B00F04BAA /* element_005_boron.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873BD29F5F97B00F04BAA /* element_005_boron.usdz */; };
 		4118743429F5F97B00F04BAA /* element_093_neptunium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873BE29F5F97B00F04BAA /* element_093_neptunium.usdz */; };
 		4118743529F5F97B00F04BAA /* element_039_yttrium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 411873BF29F5F97B00F04BAA /* element_039_yttrium.usdz */; };
@@ -134,10 +132,26 @@
 		411874AB29F5F9C600F04BAA /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874AA29F5F9C600F04BAA /* ViewExtension.swift */; };
 		411874AD29F5F9EF00F04BAA /* PlacementSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874AC29F5F9EF00F04BAA /* PlacementSettings.swift */; };
 		411874B029F5FA2800F04BAA /* SessionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874AF29F5FA2800F04BAA /* SessionSettings.swift */; };
-		411874B329F5FA4E00F04BAA /* ARModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874B229F5FA4E00F04BAA /* ARModel.swift */; };
 		411874B529F5FB6100F04BAA /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874B429F5FB6100F04BAA /* SettingsModel.swift */; };
-		411874B929F5FBAD00F04BAA /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874B729F5FBAD00F04BAA /* CustomARView.swift */; };
-		411874BA29F5FBAD00F04BAA /* ARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874B829F5FBAD00F04BAA /* ARViewRepresentable.swift */; };
+		411874C329F5FD8B00F04BAA /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 411874C229F5FD8B00F04BAA /* FocusEntity */; };
+		411874DA29F5FE0C00F04BAA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874C629F5FE0C00F04BAA /* SettingsView.swift */; };
+		411874DB29F5FE0C00F04BAA /* SettingsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874C729F5FE0C00F04BAA /* SettingsGridView.swift */; };
+		411874DC29F5FE0C00F04BAA /* SettingsToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874C829F5FE0C00F04BAA /* SettingsToggleButton.swift */; };
+		411874DD29F5FE0C00F04BAA /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874CA29F5FE0C00F04BAA /* CustomARView.swift */; };
+		411874DE29F5FE0C00F04BAA /* ARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874CB29F5FE0C00F04BAA /* ARViewRepresentable.swift */; };
+		411874DF29F5FE0C00F04BAA /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874CC29F5FE0C00F04BAA /* PlacementView.swift */; };
+		411874E029F5FE0C00F04BAA /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874CE29F5FE0C00F04BAA /* BrowseView.swift */; };
+		411874E129F5FE0C00F04BAA /* ModelsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874CF29F5FE0C00F04BAA /* ModelsGridView.swift */; };
+		411874E229F5FE0C00F04BAA /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874D029F5FE0C00F04BAA /* SeparatorView.swift */; };
+		411874E329F5FE0C00F04BAA /* HorizontalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874D129F5FE0C00F04BAA /* HorizontalGridView.swift */; };
+		411874E429F5FE0C00F04BAA /* ItemButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874D229F5FE0C00F04BAA /* ItemButtonView.swift */; };
+		411874E529F5FE0C00F04BAA /* RecentsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874D429F5FE0C00F04BAA /* RecentsGridView.swift */; };
+		411874E629F5FE0C00F04BAA /* ControlButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874D529F5FE0C00F04BAA /* ControlButtonView.swift */; };
+		411874E729F5FE0C00F04BAA /* ControlVisibilityToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874D629F5FE0C00F04BAA /* ControlVisibilityToggleView.swift */; };
+		411874E829F5FE0C00F04BAA /* ControlButtonBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874D729F5FE0C00F04BAA /* ControlButtonBar.swift */; };
+		411874E929F5FE0C00F04BAA /* RecentlyPlacedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874D829F5FE0C00F04BAA /* RecentlyPlacedView.swift */; };
+		411874EA29F5FE0C00F04BAA /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874D929F5FE0C00F04BAA /* ControlView.swift */; };
+		411874EC29F5FF2D00F04BAA /* ARModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874EB29F5FF2D00F04BAA /* ARModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -146,8 +160,6 @@
 		411873AC29E0ACAA00F04BAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		411873AE29E0ACAB00F04BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		411873B129E0ACAB00F04BAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		411873B829E0ACBD00F04BAA /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
-		411873BA29E0ACDC00F04BAA /* PeriodicTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTableViewModel.swift; sourceTree = "<group>"; };
 		411873BD29F5F97B00F04BAA /* element_005_boron.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_005_boron.usdz; sourceTree = "<group>"; };
 		411873BE29F5F97B00F04BAA /* element_093_neptunium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_093_neptunium.usdz; sourceTree = "<group>"; };
 		411873BF29F5F97B00F04BAA /* element_039_yttrium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = element_039_yttrium.usdz; sourceTree = "<group>"; };
@@ -269,10 +281,25 @@
 		411874AA29F5F9C600F04BAA /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		411874AC29F5F9EF00F04BAA /* PlacementSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementSettings.swift; sourceTree = "<group>"; };
 		411874AF29F5FA2800F04BAA /* SessionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSettings.swift; sourceTree = "<group>"; };
-		411874B229F5FA4E00F04BAA /* ARModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARModel.swift; sourceTree = "<group>"; };
 		411874B429F5FB6100F04BAA /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
-		411874B729F5FBAD00F04BAA /* CustomARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
-		411874B829F5FBAD00F04BAA /* ARViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewRepresentable.swift; sourceTree = "<group>"; };
+		411874C629F5FE0C00F04BAA /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		411874C729F5FE0C00F04BAA /* SettingsGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsGridView.swift; sourceTree = "<group>"; };
+		411874C829F5FE0C00F04BAA /* SettingsToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsToggleButton.swift; sourceTree = "<group>"; };
+		411874CA29F5FE0C00F04BAA /* CustomARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		411874CB29F5FE0C00F04BAA /* ARViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewRepresentable.swift; sourceTree = "<group>"; };
+		411874CC29F5FE0C00F04BAA /* PlacementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
+		411874CE29F5FE0C00F04BAA /* BrowseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		411874CF29F5FE0C00F04BAA /* ModelsGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelsGridView.swift; sourceTree = "<group>"; };
+		411874D029F5FE0C00F04BAA /* SeparatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
+		411874D129F5FE0C00F04BAA /* HorizontalGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalGridView.swift; sourceTree = "<group>"; };
+		411874D229F5FE0C00F04BAA /* ItemButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemButtonView.swift; sourceTree = "<group>"; };
+		411874D429F5FE0C00F04BAA /* RecentsGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentsGridView.swift; sourceTree = "<group>"; };
+		411874D529F5FE0C00F04BAA /* ControlButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlButtonView.swift; sourceTree = "<group>"; };
+		411874D629F5FE0C00F04BAA /* ControlVisibilityToggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlVisibilityToggleView.swift; sourceTree = "<group>"; };
+		411874D729F5FE0C00F04BAA /* ControlButtonBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlButtonBar.swift; sourceTree = "<group>"; };
+		411874D829F5FE0C00F04BAA /* RecentlyPlacedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentlyPlacedView.swift; sourceTree = "<group>"; };
+		411874D929F5FE0C00F04BAA /* ControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		411874EB29F5FF2D00F04BAA /* ARModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,6 +307,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411874C329F5FD8B00F04BAA /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +333,12 @@
 		411873A929E0ACAA00F04BAA /* Chementis */ = {
 			isa = PBXGroup;
 			children = (
-				411874B629F5FBAD00F04BAA /* UIKit */,
+				411873AA29E0ACAA00F04BAA /* ChementisApp.swift */,
+				411873AC29E0ACAA00F04BAA /* ContentView.swift */,
+				411874C429F5FE0C00F04BAA /* Views */,
 				411874B129F5FA4700F04BAA /* Models */,
 				411874AE29F5F9F800F04BAA /* Managers */,
 				411874A929F5F9BA00F04BAA /* Extensions */,
-				411873AA29E0ACAA00F04BAA /* ChementisApp.swift */,
-				411873AC29E0ACAA00F04BAA /* ContentView.swift */,
-				411873B829E0ACBD00F04BAA /* Element.swift */,
-				411873BA29E0ACDC00F04BAA /* PeriodicTableViewModel.swift */,
 				411873BC29F5F97B00F04BAA /* Elements3D */,
 				411873AE29E0ACAB00F04BAA /* Assets.xcassets */,
 				411873B029E0ACAB00F04BAA /* Preview Content */,
@@ -473,19 +499,66 @@
 		411874B129F5FA4700F04BAA /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				411874B229F5FA4E00F04BAA /* ARModel.swift */,
 				411874B429F5FB6100F04BAA /* SettingsModel.swift */,
+				411874EB29F5FF2D00F04BAA /* ARModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		411874B629F5FBAD00F04BAA /* UIKit */ = {
+		411874C429F5FE0C00F04BAA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				411874B729F5FBAD00F04BAA /* CustomARView.swift */,
-				411874B829F5FBAD00F04BAA /* ARViewRepresentable.swift */,
+				411874C529F5FE0C00F04BAA /* SettingsViews */,
+				411874C929F5FE0C00F04BAA /* UIKit */,
+				411874CC29F5FE0C00F04BAA /* PlacementView.swift */,
+				411874CD29F5FE0C00F04BAA /* BrowseViews */,
+				411874D329F5FE0C00F04BAA /* ControlViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		411874C529F5FE0C00F04BAA /* SettingsViews */ = {
+			isa = PBXGroup;
+			children = (
+				411874C629F5FE0C00F04BAA /* SettingsView.swift */,
+				411874C729F5FE0C00F04BAA /* SettingsGridView.swift */,
+				411874C829F5FE0C00F04BAA /* SettingsToggleButton.swift */,
+			);
+			path = SettingsViews;
+			sourceTree = "<group>";
+		};
+		411874C929F5FE0C00F04BAA /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				411874CA29F5FE0C00F04BAA /* CustomARView.swift */,
+				411874CB29F5FE0C00F04BAA /* ARViewRepresentable.swift */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		411874CD29F5FE0C00F04BAA /* BrowseViews */ = {
+			isa = PBXGroup;
+			children = (
+				411874CE29F5FE0C00F04BAA /* BrowseView.swift */,
+				411874CF29F5FE0C00F04BAA /* ModelsGridView.swift */,
+				411874D029F5FE0C00F04BAA /* SeparatorView.swift */,
+				411874D129F5FE0C00F04BAA /* HorizontalGridView.swift */,
+				411874D229F5FE0C00F04BAA /* ItemButtonView.swift */,
+			);
+			path = BrowseViews;
+			sourceTree = "<group>";
+		};
+		411874D329F5FE0C00F04BAA /* ControlViews */ = {
+			isa = PBXGroup;
+			children = (
+				411874D429F5FE0C00F04BAA /* RecentsGridView.swift */,
+				411874D529F5FE0C00F04BAA /* ControlButtonView.swift */,
+				411874D629F5FE0C00F04BAA /* ControlVisibilityToggleView.swift */,
+				411874D729F5FE0C00F04BAA /* ControlButtonBar.swift */,
+				411874D829F5FE0C00F04BAA /* RecentlyPlacedView.swift */,
+				411874D929F5FE0C00F04BAA /* ControlView.swift */,
+			);
+			path = ControlViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -504,6 +577,9 @@
 			dependencies = (
 			);
 			name = Chementis;
+			packageProductDependencies = (
+				411874C229F5FD8B00F04BAA /* FocusEntity */,
+			);
 			productName = Chementis;
 			productReference = 411873A729E0ACAA00F04BAA /* Chementis.app */;
 			productType = "com.apple.product-type.application";
@@ -532,6 +608,9 @@
 				Base,
 			);
 			mainGroup = 4118739E29E0ACAA00F04BAA;
+			packageReferences = (
+				411874C129F5FD8B00F04BAA /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			productRefGroup = 411873A829E0ACAA00F04BAA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -676,16 +755,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				411874B929F5FBAD00F04BAA /* CustomARView.swift in Sources */,
 				411874B529F5FB6100F04BAA /* SettingsModel.swift in Sources */,
+				411874E629F5FE0C00F04BAA /* ControlButtonView.swift in Sources */,
+				411874E229F5FE0C00F04BAA /* SeparatorView.swift in Sources */,
 				411874B029F5FA2800F04BAA /* SessionSettings.swift in Sources */,
-				411874BA29F5FBAD00F04BAA /* ARViewRepresentable.swift in Sources */,
 				411874AD29F5F9EF00F04BAA /* PlacementSettings.swift in Sources */,
 				411873AD29E0ACAA00F04BAA /* ContentView.swift in Sources */,
+				411874DF29F5FE0C00F04BAA /* PlacementView.swift in Sources */,
+				411874E729F5FE0C00F04BAA /* ControlVisibilityToggleView.swift in Sources */,
+				411874DB29F5FE0C00F04BAA /* SettingsGridView.swift in Sources */,
+				411874E929F5FE0C00F04BAA /* RecentlyPlacedView.swift in Sources */,
+				411874EA29F5FE0C00F04BAA /* ControlView.swift in Sources */,
+				411874E129F5FE0C00F04BAA /* ModelsGridView.swift in Sources */,
 				411873AB29E0ACAA00F04BAA /* ChementisApp.swift in Sources */,
-				411874B329F5FA4E00F04BAA /* ARModel.swift in Sources */,
-				411873BB29E0ACDC00F04BAA /* PeriodicTableViewModel.swift in Sources */,
-				411873B929E0ACBD00F04BAA /* Element.swift in Sources */,
+				411874DC29F5FE0C00F04BAA /* SettingsToggleButton.swift in Sources */,
+				411874E029F5FE0C00F04BAA /* BrowseView.swift in Sources */,
+				411874E829F5FE0C00F04BAA /* ControlButtonBar.swift in Sources */,
+				411874E329F5FE0C00F04BAA /* HorizontalGridView.swift in Sources */,
+				411874DD29F5FE0C00F04BAA /* CustomARView.swift in Sources */,
+				411874E529F5FE0C00F04BAA /* RecentsGridView.swift in Sources */,
+				411874DA29F5FE0C00F04BAA /* SettingsView.swift in Sources */,
+				411874E429F5FE0C00F04BAA /* ItemButtonView.swift in Sources */,
+				411874DE29F5FE0C00F04BAA /* ARViewRepresentable.swift in Sources */,
+				411874EC29F5FF2D00F04BAA /* ARModel.swift in Sources */,
 				411874AB29F5F9C600F04BAA /* ViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -887,6 +979,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		411874C129F5FD8B00F04BAA /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 2.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		411874C229F5FD8B00F04BAA /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 411874C129F5FD8B00F04BAA /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4118739F29E0ACAA00F04BAA /* Project object */;
 }
