@@ -6,7 +6,6 @@ Chementis is an **Augmented Reality** application that allows users to explore a
 
 - [Features](#features)
 - [Requirements](#requirements)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -29,12 +28,6 @@ Chementis is an **Augmented Reality** application that allows users to explore a
 
 - iOS: 15.0 or higher
 - Compatible AR-capable device
-
-## Installation
-
-1. Download the latest release from the [Releases](https://github.com/huntercodes/chementis/releases) tab.
-2. Install the application on your compatible AR-capable device.
-3. Grant the necessary permissions when prompted.
 
 ## Usage
 
