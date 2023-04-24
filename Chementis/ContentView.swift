@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var placementSettings: PlacementSettings
+    @State private var isControlVisible = true
+    @State private var showBrowse = false
+    @State private var showSettings = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack(alignment: .bottom) {
+            ARViewRepresentable()
+            
+            if placementSettings.selectedModel == nil {
+                ControlView(isControlVisible: $isControlVisible, showBrowse: $showBrowse, showSettings: $showSettings)
+            } else {
+                PlacementView()
+            }
+            
         }
-        .padding()
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
