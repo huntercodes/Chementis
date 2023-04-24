@@ -31,12 +31,14 @@ class ARModel {
     var thumbnail: Image
     var modelEntity: ModelEntity?
     var scaleCompensation: Float
+    var chemicalSymbol: String
     
     private var cancellable: AnyCancellable?
     
-    init(name: String, category: ModelCategory, scaleCompensation: Float = 1.0) {
+    init(name: String, category: ModelCategory, chemicalSymbol: String, scaleCompensation: Float = 1.0) {
         self.name = name
         self.category = category
+        self.chemicalSymbol = chemicalSymbol
         self.thumbnail = Image(name)
         self.scaleCompensation = scaleCompensation
     }
@@ -59,6 +61,16 @@ class ARModel {
             })
     }
     
+    func getElementName() -> String? {
+        if category == .element {
+            let parts = name.split(separator: "_")
+            if parts.count >= 3 {
+                return String(parts[2]).capitalizingFirstLetter()
+            }
+        }
+        return nil
+    }
+    
 }
 
 struct Models {
@@ -66,10 +78,10 @@ struct Models {
     
     init() {
         // Element Models -- NEED TO ADD ALL 118
-        let hydrogen = ARModel(name: "element_001_hydrogen", category: .element, scaleCompensation: 67 / 100)
-        let helium = ARModel(name: "element_002_helium", category: .element, scaleCompensation: 67 / 100)
-        let lithium = ARModel(name: "element_003_lithium", category: .element, scaleCompensation: 67 / 100)
-        let beryllium = ARModel(name: "element_004_beryllium", category: .element, scaleCompensation: 67 / 100)
+        let hydrogen = ARModel(name: "element_001_hydrogen", category: .element, chemicalSymbol: "H", scaleCompensation: 67 / 100)
+        let helium = ARModel(name: "element_002_helium", category: .element, chemicalSymbol: "He", scaleCompensation: 67 / 100)
+        let lithium = ARModel(name: "element_003_lithium", category: .element, chemicalSymbol: "Li", scaleCompensation: 67 / 100)
+        let beryllium = ARModel(name: "element_004_beryllium", category: .element, chemicalSymbol: "Be", scaleCompensation: 67 / 100)
         self.arModels += [hydrogen, helium, lithium, beryllium]
     }
     

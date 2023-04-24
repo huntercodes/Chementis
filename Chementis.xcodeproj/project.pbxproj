@@ -152,6 +152,11 @@
 		411874E929F5FE0C00F04BAA /* RecentlyPlacedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874D829F5FE0C00F04BAA /* RecentlyPlacedView.swift */; };
 		411874EA29F5FE0C00F04BAA /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874D929F5FE0C00F04BAA /* ControlView.swift */; };
 		411874EC29F5FF2D00F04BAA /* ARModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874EB29F5FF2D00F04BAA /* ARModel.swift */; };
+		411874EE29F7061300F04BAA /* ChemicalElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874ED29F7061300F04BAA /* ChemicalElement.swift */; };
+		411874F029F7066100F04BAA /* ChemistryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874EF29F7066100F04BAA /* ChemistryAPI.swift */; };
+		411874F229F7081000F04BAA /* ModelEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874F129F7081000F04BAA /* ModelEntityExtension.swift */; };
+		411874F429F70AAF00F04BAA /* ARHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874F329F70AAF00F04BAA /* ARHelper.swift */; };
+		411874F629F70E8000F04BAA /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874F529F70E8000F04BAA /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -300,6 +305,11 @@
 		411874D829F5FE0C00F04BAA /* RecentlyPlacedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentlyPlacedView.swift; sourceTree = "<group>"; };
 		411874D929F5FE0C00F04BAA /* ControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
 		411874EB29F5FF2D00F04BAA /* ARModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARModel.swift; sourceTree = "<group>"; };
+		411874ED29F7061300F04BAA /* ChemicalElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalElement.swift; sourceTree = "<group>"; };
+		411874EF29F7066100F04BAA /* ChemistryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemistryAPI.swift; sourceTree = "<group>"; };
+		411874F129F7081000F04BAA /* ModelEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelEntityExtension.swift; sourceTree = "<group>"; };
+		411874F329F70AAF00F04BAA /* ARHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARHelper.swift; sourceTree = "<group>"; };
+		411874F529F70E8000F04BAA /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -483,6 +493,8 @@
 			isa = PBXGroup;
 			children = (
 				411874AA29F5F9C600F04BAA /* ViewExtension.swift */,
+				411874F129F7081000F04BAA /* ModelEntityExtension.swift */,
+				411874F529F70E8000F04BAA /* StringExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -492,6 +504,8 @@
 			children = (
 				411874AC29F5F9EF00F04BAA /* PlacementSettings.swift */,
 				411874AF29F5FA2800F04BAA /* SessionSettings.swift */,
+				411874EF29F7066100F04BAA /* ChemistryAPI.swift */,
+				411874F329F70AAF00F04BAA /* ARHelper.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -501,6 +515,7 @@
 			children = (
 				411874B429F5FB6100F04BAA /* SettingsModel.swift */,
 				411874EB29F5FF2D00F04BAA /* ARModel.swift */,
+				411874ED29F7061300F04BAA /* ChemicalElement.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -757,21 +772,26 @@
 			files = (
 				411874B529F5FB6100F04BAA /* SettingsModel.swift in Sources */,
 				411874E629F5FE0C00F04BAA /* ControlButtonView.swift in Sources */,
+				411874EE29F7061300F04BAA /* ChemicalElement.swift in Sources */,
 				411874E229F5FE0C00F04BAA /* SeparatorView.swift in Sources */,
 				411874B029F5FA2800F04BAA /* SessionSettings.swift in Sources */,
+				411874F029F7066100F04BAA /* ChemistryAPI.swift in Sources */,
 				411874AD29F5F9EF00F04BAA /* PlacementSettings.swift in Sources */,
 				411873AD29E0ACAA00F04BAA /* ContentView.swift in Sources */,
 				411874DF29F5FE0C00F04BAA /* PlacementView.swift in Sources */,
 				411874E729F5FE0C00F04BAA /* ControlVisibilityToggleView.swift in Sources */,
 				411874DB29F5FE0C00F04BAA /* SettingsGridView.swift in Sources */,
 				411874E929F5FE0C00F04BAA /* RecentlyPlacedView.swift in Sources */,
+				411874F629F70E8000F04BAA /* StringExtension.swift in Sources */,
 				411874EA29F5FE0C00F04BAA /* ControlView.swift in Sources */,
 				411874E129F5FE0C00F04BAA /* ModelsGridView.swift in Sources */,
 				411873AB29E0ACAA00F04BAA /* ChementisApp.swift in Sources */,
 				411874DC29F5FE0C00F04BAA /* SettingsToggleButton.swift in Sources */,
+				411874F429F70AAF00F04BAA /* ARHelper.swift in Sources */,
 				411874E029F5FE0C00F04BAA /* BrowseView.swift in Sources */,
 				411874E829F5FE0C00F04BAA /* ControlButtonBar.swift in Sources */,
 				411874E329F5FE0C00F04BAA /* HorizontalGridView.swift in Sources */,
+				411874F229F7081000F04BAA /* ModelEntityExtension.swift in Sources */,
 				411874DD29F5FE0C00F04BAA /* CustomARView.swift in Sources */,
 				411874E529F5FE0C00F04BAA /* RecentsGridView.swift in Sources */,
 				411874DA29F5FE0C00F04BAA /* SettingsView.swift in Sources */,

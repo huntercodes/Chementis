@@ -45,6 +45,14 @@ struct ARViewRepresentable: UIViewRepresentable {
         let anchorEntity = AnchorEntity(plane: .any)
         anchorEntity.addChild(clonedEntity)
         
+        if let textEntity = placementSettings.textEntity {
+            let textAnchor = AnchorEntity(plane: .any)
+            textEntity.position.y += 0.21
+            textAnchor.addChild(textEntity)
+            anchorEntity.addChild(textAnchor)
+        }
+        
         arView.scene.addAnchor(anchorEntity)
     }
+
 }
