@@ -15,11 +15,9 @@ struct ItemButtonView: View {
         Button {
             action()
         } label: {
-            model.thumbnail
-                .resizable()
-                .frame(height: 150)
-                .aspectRatio(1/1, contentMode: .fit)
-                .cornerRadius(10)
+            ElementView(model: model)
+                .frame(width: 150, height: 150)
         }
     }
 }
+

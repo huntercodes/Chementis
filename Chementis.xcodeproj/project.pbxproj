@@ -158,6 +158,7 @@
 		411874F429F70AAF00F04BAA /* ARHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874F329F70AAF00F04BAA /* ARHelper.swift */; };
 		411874F629F70E8000F04BAA /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874F529F70E8000F04BAA /* StringExtension.swift */; };
 		411874F929F72F3B00F04BAA /* ARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874F829F72F3B00F04BAA /* ARViewModel.swift */; };
+		411874FB2A02D56B00F04BAA /* ElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874FA2A02D56B00F04BAA /* ElementView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -312,6 +313,7 @@
 		411874F329F70AAF00F04BAA /* ARHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARHelper.swift; sourceTree = "<group>"; };
 		411874F529F70E8000F04BAA /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		411874F829F72F3B00F04BAA /* ARViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewModel.swift; sourceTree = "<group>"; };
+		411874FA2A02D56B00F04BAA /* ElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -559,6 +561,7 @@
 			children = (
 				411874CE29F5FE0C00F04BAA /* BrowseView.swift */,
 				411874CF29F5FE0C00F04BAA /* ModelsGridView.swift */,
+				411874FA2A02D56B00F04BAA /* ElementView.swift */,
 				411874D029F5FE0C00F04BAA /* SeparatorView.swift */,
 				411874D129F5FE0C00F04BAA /* HorizontalGridView.swift */,
 				411874D229F5FE0C00F04BAA /* ItemButtonView.swift */,
@@ -781,6 +784,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411874FB2A02D56B00F04BAA /* ElementView.swift in Sources */,
 				411874B529F5FB6100F04BAA /* SettingsModel.swift in Sources */,
 				411874E629F5FE0C00F04BAA /* ControlButtonView.swift in Sources */,
 				411874EE29F7061300F04BAA /* ChemicalElement.swift in Sources */,

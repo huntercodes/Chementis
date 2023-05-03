@@ -16,12 +16,8 @@ struct RecentlyPlacedView: View {
             withAnimation(.easeInOut) { placementSettings.selectedModel = placementSettings.recentlyPlaced.last }
         } label: {
             if let recentlyPlacedModel = placementSettings.recentlyPlaced.last {
-                recentlyPlacedModel.thumbnail
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 60)
-                    .aspectRatio(1/1, contentMode: .fit)
-                    .cornerRadius(10)
+                ElementView(model: recentlyPlacedModel)
+                    .frame(width: 60, height: 60)
             } else {
                 Image(systemName: "clock.fill")
                 .resizable()
