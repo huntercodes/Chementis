@@ -155,7 +155,6 @@
 		411874EE29F7061300F04BAA /* ChemicalElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874ED29F7061300F04BAA /* ChemicalElement.swift */; };
 		411874F029F7066100F04BAA /* ChemistryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874EF29F7066100F04BAA /* ChemistryAPI.swift */; };
 		411874F229F7081000F04BAA /* ModelEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874F129F7081000F04BAA /* ModelEntityExtension.swift */; };
-		411874F429F70AAF00F04BAA /* ARHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874F329F70AAF00F04BAA /* ARHelper.swift */; };
 		411874F629F70E8000F04BAA /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874F529F70E8000F04BAA /* StringExtension.swift */; };
 		411874F929F72F3B00F04BAA /* ARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874F829F72F3B00F04BAA /* ARViewModel.swift */; };
 		411874FB2A02D56B00F04BAA /* ElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874FA2A02D56B00F04BAA /* ElementView.swift */; };
@@ -310,7 +309,6 @@
 		411874ED29F7061300F04BAA /* ChemicalElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalElement.swift; sourceTree = "<group>"; };
 		411874EF29F7066100F04BAA /* ChemistryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemistryAPI.swift; sourceTree = "<group>"; };
 		411874F129F7081000F04BAA /* ModelEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelEntityExtension.swift; sourceTree = "<group>"; };
-		411874F329F70AAF00F04BAA /* ARHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARHelper.swift; sourceTree = "<group>"; };
 		411874F529F70E8000F04BAA /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		411874F829F72F3B00F04BAA /* ARViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewModel.swift; sourceTree = "<group>"; };
 		411874FA2A02D56B00F04BAA /* ElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementView.swift; sourceTree = "<group>"; };
@@ -510,7 +508,6 @@
 				411874AC29F5F9EF00F04BAA /* PlacementSettings.swift */,
 				411874AF29F5FA2800F04BAA /* SessionSettings.swift */,
 				411874EF29F7066100F04BAA /* ChemistryAPI.swift */,
-				411874F329F70AAF00F04BAA /* ARHelper.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -803,7 +800,6 @@
 				411874F929F72F3B00F04BAA /* ARViewModel.swift in Sources */,
 				411873AB29E0ACAA00F04BAA /* ChementisApp.swift in Sources */,
 				411874DC29F5FE0C00F04BAA /* SettingsToggleButton.swift in Sources */,
-				411874F429F70AAF00F04BAA /* ARHelper.swift in Sources */,
 				411874E029F5FE0C00F04BAA /* BrowseView.swift in Sources */,
 				411874E829F5FE0C00F04BAA /* ControlButtonBar.swift in Sources */,
 				411874E329F5FE0C00F04BAA /* HorizontalGridView.swift in Sources */,

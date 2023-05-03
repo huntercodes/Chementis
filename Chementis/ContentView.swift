@@ -13,9 +13,11 @@ struct ContentView: View {
     @State private var showBrowse = false
     @State private var showSettings = false
     
+    @ObservedObject var viewModel = ARViewModel()
+    
     var body: some View {
         ZStack(alignment: .bottom) {
-            ARViewRepresentable()
+            ARViewRepresentable(viewModel: viewModel)
             
             if placementSettings.selectedModel == nil {
                 ControlView(isControlVisible: $isControlVisible, showBrowse: $showBrowse, showSettings: $showSettings)

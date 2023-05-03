@@ -9,7 +9,6 @@ import SwiftUI
 
 struct PlacementView: View {
     @EnvironmentObject var placementSettings: PlacementSettings
-    @EnvironmentObject var arHelper: ARHelper
     
     @ObservedObject var vm = ARViewModel()
     
@@ -26,13 +25,6 @@ struct PlacementView: View {
             PlacementButton(systemIconName: "checkmark.circle") {
                 placementSettings.confirmedModel = placementSettings.selectedModel
                 placementSettings.selectedModel = nil
-                
-                if let elementName = placementSettings.confirmedModel?.getElementName(),
-                   let elementData = vm.getElementData(byName: elementName) {
-                    print(elementData)
-                } else {
-                    print("Element not found")
-                }
             }
             
             Spacer()

@@ -16,7 +16,7 @@ struct ItemButtonView: View {
             action()
         } label: {
             ElementView(model: model)
-                .frame(width: 150, height: 150)
+                .frame(width: 174, height: 174)
         }
     }
 }

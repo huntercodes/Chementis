@@ -13,7 +13,7 @@ struct ElementView: View {
     var body: some View {
         VStack {
             Text(model.getElementName() ?? "")
-                .font(.title2)
+                .font(.title3)
                 .bold()
             
             Text(model.chemicalSymbol)
@@ -23,9 +23,9 @@ struct ElementView: View {
             Text(String(model.name.split(separator: "_")[1]))
                 .font(.caption)
         }
-        .padding()
+        .padding(18)
         .background(Color("mainColor").gradient)
-        .foregroundColor(.secondary)
+        .foregroundColor(Color("textColor"))
         .cornerRadius(9)
     }
 }

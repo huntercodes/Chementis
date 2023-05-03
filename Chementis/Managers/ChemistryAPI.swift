@@ -35,7 +35,6 @@ class ChemistryAPI {
                 
                 do {
                     let json = try JSONSerialization.jsonObject(with: data, options: [])
-                    // print("Received data:", json)
                     
                     let response = try decoder.decode([ChemicalElement].self, from: data)
                     completion(.success(response))
