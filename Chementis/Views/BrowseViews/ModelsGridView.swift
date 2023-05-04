@@ -15,7 +15,7 @@ struct ModelsGridView: View {
         VStack {
             ForEach(ModelCategory.allCases, id: \.self) { category in
                 if let modelsByCategory = models.get(category: category) {
-                    HorizontalGridView(showBrowse: $showBrowse, title: category.label, items: modelsByCategory)
+                    ElementsGridView(showBrowse: $showBrowse, title: category.label, items: modelsByCategory)
                 }
             }
         }

@@ -50,7 +50,7 @@ struct ARViewRepresentable: UIViewRepresentable {
     
     private func updateScene(for arView: CustomARView) {
         arView.focusEntity?.isEnabled = placementSettings.selectedModel != nil
-        
+
         if let confirmedModel = placementSettings.confirmedModel, let modelEntity = confirmedModel.modelEntity {
             if let elementName = placementSettings.confirmedModel?.getElementName(),
                let elementData = viewModel.getElementData(byName: elementName) {

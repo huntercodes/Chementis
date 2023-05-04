@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-struct HorizontalGridView: View {
+struct ElementsGridView: View {
     @EnvironmentObject var  placementSettings: PlacementSettings
     @Binding var showBrowse: Bool
-    private let gridItemLayout = [GridItem(.fixed(150))]
+    private let gridItemLayout = [GridItem(.adaptive(minimum: 63)), GridItem(.adaptive(minimum: 63)), GridItem(.adaptive(minimum: 63))]
     
     var title: String
     var items: [ARModel]
@@ -25,8 +25,8 @@ struct HorizontalGridView: View {
                 .padding(.top)
                 .padding(.horizontal)
             
-            ScrollView(.horizontal, showsIndicators: false)  {
-                LazyHGrid(rows: gridItemLayout, spacing: 6) {
+            ScrollView(.vertical, showsIndicators: false) {
+                LazyVGrid(columns: gridItemLayout, spacing: 3) {
                     ForEach(0..<items.count, id: \.self) { index in
                         let model = items[index]
                         

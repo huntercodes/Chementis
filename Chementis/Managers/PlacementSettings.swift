@@ -32,7 +32,7 @@ final class PlacementSettings: ObservableObject {
     
     @Published var recentlyPlaced: [ARModel] = []
     
-    @Published var textEntity: Entity?
+    @Published var elementDescription: String?
     
     var sceneObserver: Cancellable?
 }

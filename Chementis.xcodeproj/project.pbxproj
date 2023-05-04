@@ -143,7 +143,7 @@
 		411874E029F5FE0C00F04BAA /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874CE29F5FE0C00F04BAA /* BrowseView.swift */; };
 		411874E129F5FE0C00F04BAA /* ModelsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874CF29F5FE0C00F04BAA /* ModelsGridView.swift */; };
 		411874E229F5FE0C00F04BAA /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874D029F5FE0C00F04BAA /* SeparatorView.swift */; };
-		411874E329F5FE0C00F04BAA /* HorizontalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874D129F5FE0C00F04BAA /* HorizontalGridView.swift */; };
+		411874E329F5FE0C00F04BAA /* ElementsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874D129F5FE0C00F04BAA /* ElementsGridView.swift */; };
 		411874E429F5FE0C00F04BAA /* ItemButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874D229F5FE0C00F04BAA /* ItemButtonView.swift */; };
 		411874E529F5FE0C00F04BAA /* RecentsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874D429F5FE0C00F04BAA /* RecentsGridView.swift */; };
 		411874E629F5FE0C00F04BAA /* ControlButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411874D529F5FE0C00F04BAA /* ControlButtonView.swift */; };
@@ -297,7 +297,7 @@
 		411874CE29F5FE0C00F04BAA /* BrowseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		411874CF29F5FE0C00F04BAA /* ModelsGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelsGridView.swift; sourceTree = "<group>"; };
 		411874D029F5FE0C00F04BAA /* SeparatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
-		411874D129F5FE0C00F04BAA /* HorizontalGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalGridView.swift; sourceTree = "<group>"; };
+		411874D129F5FE0C00F04BAA /* ElementsGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementsGridView.swift; sourceTree = "<group>"; };
 		411874D229F5FE0C00F04BAA /* ItemButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemButtonView.swift; sourceTree = "<group>"; };
 		411874D429F5FE0C00F04BAA /* RecentsGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentsGridView.swift; sourceTree = "<group>"; };
 		411874D529F5FE0C00F04BAA /* ControlButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlButtonView.swift; sourceTree = "<group>"; };
@@ -560,7 +560,7 @@
 				411874CF29F5FE0C00F04BAA /* ModelsGridView.swift */,
 				411874FA2A02D56B00F04BAA /* ElementView.swift */,
 				411874D029F5FE0C00F04BAA /* SeparatorView.swift */,
-				411874D129F5FE0C00F04BAA /* HorizontalGridView.swift */,
+				411874D129F5FE0C00F04BAA /* ElementsGridView.swift */,
 				411874D229F5FE0C00F04BAA /* ItemButtonView.swift */,
 			);
 			path = BrowseViews;
@@ -802,7 +802,7 @@
 				411874DC29F5FE0C00F04BAA /* SettingsToggleButton.swift in Sources */,
 				411874E029F5FE0C00F04BAA /* BrowseView.swift in Sources */,
 				411874E829F5FE0C00F04BAA /* ControlButtonBar.swift in Sources */,
-				411874E329F5FE0C00F04BAA /* HorizontalGridView.swift in Sources */,
+				411874E329F5FE0C00F04BAA /* ElementsGridView.swift in Sources */,
 				411874F229F7081000F04BAA /* ModelEntityExtension.swift in Sources */,
 				411874DD29F5FE0C00F04BAA /* CustomARView.swift in Sources */,
 				411874E529F5FE0C00F04BAA /* RecentsGridView.swift in Sources */,

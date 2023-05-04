@@ -13,8 +13,6 @@ struct BrowseView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                RecentsGridView(showBrowse: $showBrowse)
-                
                 ModelsGridView(showBrowse: $showBrowse)
             }
             .navigationBarTitle("Browse", displayMode: .inline)

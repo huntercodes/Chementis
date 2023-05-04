@@ -49,7 +49,6 @@ class CustomARView: ARView {
         session.run(config)
     }
     
-    
     private func initializeSettings() {
         self.updatePeopleOcclusion(isEnabled: sessionSettings.isPeopleOcclusionEnabled)
         self.updateObjectOcclusion(isEnabled: sessionSettings.isObjectOcclusionEnabled)
