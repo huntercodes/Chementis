@@ -39,7 +39,6 @@ struct ElementsGridView: View {
                         }
                     }
                 }
-                .padding()
             }
         }
     }
