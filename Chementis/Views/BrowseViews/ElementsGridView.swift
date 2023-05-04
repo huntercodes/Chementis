@@ -10,7 +10,9 @@ import SwiftUI
 struct ElementsGridView: View {
     @EnvironmentObject var  placementSettings: PlacementSettings
     @Binding var showBrowse: Bool
-    private let gridItemLayout = [GridItem(.adaptive(minimum: 63)), GridItem(.adaptive(minimum: 63)), GridItem(.adaptive(minimum: 63))]
+    private let gridItemLayout = [
+        GridItem(.adaptive(minimum: 60)), GridItem(.adaptive(minimum: 60)), GridItem(.adaptive(minimum: 60)), GridItem(.adaptive(minimum: 60))
+    ]
     
     var title: String
     var items: [ARModel]
