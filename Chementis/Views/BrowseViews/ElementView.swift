@@ -13,11 +13,11 @@ struct ElementView: View {
     var body: some View {
         VStack {
             Text(model.getElementName() ?? "")
-                .font(.subheadline)
+                .font(.footnote.bold())
                 .bold()
             
             Text(model.chemicalSymbol)
-                .font(.footnote)
+                .font(.caption)
                 .bold()
             
             Text(String(model.name.split(separator: "_")[1]))

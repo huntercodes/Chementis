@@ -11,7 +11,7 @@ struct ElementsGridView: View {
     @EnvironmentObject var  placementSettings: PlacementSettings
     @Binding var showBrowse: Bool
     private let gridItemLayout = [
-        GridItem(.adaptive(minimum: 60)), GridItem(.adaptive(minimum: 60)), GridItem(.adaptive(minimum: 60)), GridItem(.adaptive(minimum: 60))
+        GridItem(.adaptive(minimum: 90)), GridItem(.adaptive(minimum: 90)), GridItem(.adaptive(minimum: 90)), GridItem(.adaptive(minimum: 90))
     ]
     
     var title: String
@@ -28,7 +28,7 @@ struct ElementsGridView: View {
                 .padding(.horizontal)
             
             ScrollView(.vertical, showsIndicators: false) {
-                LazyVGrid(columns: gridItemLayout, spacing: 3) {
+                LazyVGrid(columns: gridItemLayout, spacing: 9) {
                     ForEach(0..<items.count, id: \.self) { index in
                         let model = items[index]
                         
