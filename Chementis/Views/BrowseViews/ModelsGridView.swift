@@ -14,9 +14,8 @@ struct ModelsGridView: View {
     var body: some View {
         VStack {
             ForEach(ModelCategory.allCases, id: \.self) { category in
-                if let modelsByCategory = models.get(category: category) {
-                    ElementsGridView(showBrowse: $showBrowse, title: category.label, items: modelsByCategory)
-                }
+                let modelsByCategory = models.get(category: category)
+                ElementsGridView(showBrowse: $showBrowse, title: category.label, items: modelsByCategory)
             }
         }
     }

@@ -25,14 +25,7 @@ struct ARViewRepresentable: UIViewRepresentable {
         return arView
     }
     
-    func createTextEntity(
-        text: String,
-        color: UIColor = .white,
-        font: UIFont = UIFont.systemFont(ofSize: 0.03),
-        backgroundColor: UIColor = UIColor(red: 24 / 255, green: 24 / 255, blue: 24 / 255, alpha: 1),
-        borderColor: UIColor = UIColor(red: 86 / 255, green: 197 / 255, blue: 182 / 255, alpha: 1),
-        borderWidth: Float = 0.001
-    ) -> ModelEntity {
+    func createTextEntity(text: String, color: UIColor = .white, font: UIFont = UIFont.systemFont(ofSize: 0.036)) -> ModelEntity {
         let textMesh = MeshResource.generateText(
             text,
             extrusionDepth: 0.006,
@@ -41,59 +34,19 @@ struct ARViewRepresentable: UIViewRepresentable {
             alignment: .center,
             lineBreakMode: .byCharWrapping
         )
-        let textMaterial = SimpleMaterial(color: color, isMetallic: false)
-        let textEntity = ModelEntity(mesh: textMesh, materials: [textMaterial])
+        let material = SimpleMaterial(color: color, isMetallic: false)
+        let modelEntity = ModelEntity(mesh: textMesh, materials: [material])
 
         // Calculate the width of the text
         let attributedText = NSAttributedString(string: text, attributes: [NSAttributedString.Key.font: font])
         let textSize = attributedText.size()
         let textWidth = Float(textSize.width)
-        let textHeight = Float(textSize.height)
 
-        // Create a background rectangle
-        let backgroundMesh = MeshResource.generatePlane(width: Float(textWidth), height: Float(textHeight))
-        let backgroundMaterial = SimpleMaterial(color: backgroundColor, isMetallic: false)
-        let backgroundEntity = ModelEntity(mesh: backgroundMesh, materials: [backgroundMaterial])
+        // Adjust the position to center the text above the model
+        modelEntity.position.x -= textWidth / 2
 
-        // Create a border rectangle slightly larger than the background
-        let borderMesh = MeshResource.generatePlane(width: Float(textWidth + borderWidth * 2), height: Float(textHeight + borderWidth * 2))
-        let borderMaterial = SimpleMaterial(color: borderColor, isMetallic: false)
-        let borderEntity = ModelEntity(mesh: borderMesh, materials: [borderMaterial])
-
-        // Position the text entity above the background
-        textEntity.position.z += 0.001
-
-        // Create a parent ModelEntity to hold the text, background, and border
-        let containerEntity = ModelEntity()
-        containerEntity.addChild(borderEntity)
-        containerEntity.addChild(backgroundEntity)
-        containerEntity.addChild(textEntity)
-
-        return containerEntity
+        return modelEntity
     }
-    
-//    func createTextEntity(text: String, color: UIColor = .white, font: UIFont = UIFont.systemFont(ofSize: 0.03)) -> ModelEntity {
-//        let textMesh = MeshResource.generateText(
-//            text,
-//            extrusionDepth: 0.01,
-//            font: font,
-//            containerFrame: .zero,
-//            alignment: .center,
-//            lineBreakMode: .byCharWrapping
-//        )
-//        let material = SimpleMaterial(color: color, isMetallic: false)
-//        let modelEntity = ModelEntity(mesh: textMesh, materials: [material])
-//
-//        // Calculate the width of the text
-//        let attributedText = NSAttributedString(string: text, attributes: [NSAttributedString.Key.font: font])
-//        let textSize = attributedText.size()
-//        let textWidth = Float(textSize.width)
-//
-//        // Adjust the position to center the text above the model
-//        modelEntity.position.x -= textWidth / 2
-//
-//        return modelEntity
-//    }
     
     private func updateScene(for arView: CustomARView) {
         arView.focusEntity?.isEnabled = placementSettings.selectedModel != nil
