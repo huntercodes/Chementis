@@ -1,6 +1,6 @@
 # Chementis: Augmented Reality Chemistry
 
-Chementis is an **Augmented Reality** application that allows users to explore and interact with 3D models for all **118** known elements in the periodic table. With Chementis, you can dive into the world of chemistry and access interesting data for each element in a fun and engaging way!
+Chementis is an **Augmented Reality** application that allows users to explore and interact with 3D Bohr models for all **118** known elements in the periodic table. With Chementis, you can dive into the world of chemistry and access interesting data for each element in a fun and engaging way!
 
 ## Table of Contents
 
